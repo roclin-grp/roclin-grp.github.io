@@ -1,0 +1,17 @@
+html,
+body {
+  background-color: #f0f0f0;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: rgba(60, 0, 60, 1.00);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
