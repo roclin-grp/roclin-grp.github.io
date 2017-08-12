@@ -1,26 +1,24 @@
 {% include vars.html %}
 <!doctype html>
 <html>
+<head>
+
+  {% include head.html %}
+
+</head>
+<body>
+
+  {% include body.html %}
 
 
+  {% include layout/navigation.html %}
+  {% include layout/header.html %}
 
+  {{content}}
 
-{% include head.html %}
+  {% include layout/footer.html %}
 
-{% include body.html %}
+  {% include foot.html %}
 
-
-{% include layout/navigation.html %}
-{% include layout/header.html %}
-
-{{content}}
-
-{% include layout/footer.html %}
-
-
-{% include foot.html %}
-
-
-
-
+</body>
 </html>
