@@ -3,22 +3,29 @@
 <html>
 <head>
 
-  {% include head.html %}
+{% include head.html %}
 
 </head>
 <body>
 
-  {% include body.html %}
+
+{% include body.html %}
 
 
-  {% include layout/navigation.html %}
-  {% include layout/header.html %}
+{% include layout/navigation.html %}
+{% include layout/header.html %}
 
-  {{content}}
 
-  {% include layout/footer.html %}
+  <div class="container">
+    {{content}}
+  </div>
 
-  {% include foot.html %}
+
+{% include layout/footer.html %}
+
+
+{% include foot.html %}
+
 
 </body>
 </html>
