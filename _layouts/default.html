@@ -1,0 +1,32 @@
+{% include vars.html %}
+<!doctype html>
+<html>
+<head>
+
+{% include head.html %}
+
+</head>
+<body class="default">
+
+
+{% include body.html %}
+
+
+{% include layout/navigation.html %}
+{% comment %}
+{% include layout/header.html %}
+{% endcomment %}
+
+  <div class="container">
+    {{content}}
+  </div>
+
+
+{% include layout/footer.html %}
+
+
+{% include foot.html %}
+
+
+</body>
+</html>
