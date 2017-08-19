@@ -23,6 +23,7 @@ $ls-heading-font-size: ceil(($font-size-base * 4.5)) !default;
 
 .hero-unit,
 .hero-unit.jumbotron {
+  margin-bottom: 0;
 }
 
 .layout-section {
@@ -104,11 +105,9 @@ $ls-heading-font-size: ceil(($font-size-base * 4.5)) !default;
   }
 }
 
-section {
-  &.section {
-    margin: 0;
-    padding: 80px 0 60px 0;
-  }
+.content-section {
+  margin: 0 0 0 0;
+  padding: 2rem 0 2rem 0;
   &.featured {
     height: auto;
     padding: 0;

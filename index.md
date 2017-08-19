@@ -6,6 +6,12 @@ title: Home
 layout: default
 ---
 
+
+
+
+<!-- Jumbotron
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
 <div class="jumbotron hero-unit">
   <div class="container">
     <h1>Declarative Header Text Left Alignment at Slightly Offset Position</h1>
@@ -14,7 +20,15 @@ layout: default
   </div>
 </div>
 
-<section class="section">
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<!-- Content Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="content-section">
   <div class="container showcase">
     <div class="page-header">
       <h1>Title Text</h1>
@@ -22,7 +36,15 @@ layout: default
     <p class="lead">Body text with words Body text with words body text with words.</p>
     <p>Body text <a href="/about">with</a> words.</p>
   </div>
-</section>
+</div>
+
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<!-- Section Primary BG
+––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <div class="layout-section bg-primary">
   <div class="container">
@@ -30,11 +52,27 @@ layout: default
   </div>
 </div>
 
+<!-- –––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<!-- Section Success BG
+––––––––––––––––––––––––––––––––––––––––––––– -->
+
 <div class="layout-section bg-success">
   <div class="container">
     <p class="text-center">Could be simple as a color or a long ________ bar ________.  Could be a shape, like a stretched cross or box, etc.</p>
   </div>
 </div>
+
+<!-- –––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<!-- Section Info BG
+––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <div class="layout-section bg-info">
   <div class="container">
@@ -42,14 +80,32 @@ layout: default
   </div>
 </div>
 
+<!-- –––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<!-- Section Warning BG
+––––––––––––––––––––––––––––––––––––––––––––– -->
+
 <div class="layout-section bg-warning">
   <div class="container">
     <p class="text-center">Could be simple as a color or a long ________ bar ________.  Could be a shape, like a stretched cross or box, etc.</p>
   </div>
 </div>
 
+<!-- –––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<!-- Section Danger BG
+––––––––––––––––––––––––––––––––––––––––––––– -->
+
 <div class="layout-section bg-danger">
   <div class="container">
     <p class="text-center">Could be simple as a color or a long ________ bar ________.  Could be a shape, like a stretched cross or box, etc.</p>
   </div>
 </div>
+
+<!-- –––––––––––––––––––––––––––––––––––––––– -->
