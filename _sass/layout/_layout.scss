@@ -21,6 +21,30 @@ $ls-padding-bottom: 8rem;
 $ls-font-size: ceil(($font-size-base * 1.5)) !default;
 $ls-heading-font-size: ceil(($font-size-base * 4.5)) !default;
 
+
+/* Center align the text within the three columns below the carousel */
+.cards {
+  .card {
+    padding-bottom: 2rem;
+    text-align: center;
+    border: none;
+    .caption {
+      p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 36rem;
+      }
+      h2,
+      h3 {
+        font-weight: normal;
+        text-align: center;
+      }
+    }
+  }
+
+}
+
 .hero-unit,
 .hero-unit.jumbotron {
   margin-bottom: 0;
@@ -103,6 +127,23 @@ $ls-heading-font-size: ceil(($font-size-base * 4.5)) !default;
       text-align: center;
     }
   }
+}
+
+.cards-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  .thumbnail {
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+      text-decoration: none;
+    }
+  }
+}
+
+.showcase {
+  margin-bottom: $jumbotron-padding;
 }
 
 .content-section {
