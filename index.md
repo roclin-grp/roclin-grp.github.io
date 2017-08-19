@@ -80,7 +80,7 @@ layout: default
   <div class="container-fluid">
     <div class="row">
     <!--
-      <div class="col-xs-12 col-lg-4">
+      <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
           <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
           <div class="caption">
@@ -93,7 +93,7 @@ layout: default
         </div>
       </div>
     -->
-      <div class="col-xs-12 col-lg-4">
+      <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
           <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
           <div class="caption">
@@ -106,7 +106,7 @@ layout: default
         </div>
       </div>
 
-      <div class="col-xs-12 col-lg-4">
+      <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
           <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
           <div class="caption">
@@ -119,7 +119,7 @@ layout: default
         </div>
       </div>
       
-      <div class="col-xs-12 col-lg-4">
+      <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
           <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
           <div class="caption">
