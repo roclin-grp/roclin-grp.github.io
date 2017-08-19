@@ -30,6 +30,23 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Include
+include:
+  - _pages
+
+# Default YAML front matter
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      title     : "Page Title"
+      header:
+        hero_header : "Untitled Hero Unit"
+        hero_text   : "This hero unit currently has no text assigned to it"
+        hero_action : "Fix me!"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -41,3 +58,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# In _config.yml

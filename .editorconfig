@@ -47,9 +47,8 @@ trim_trailing_whitespace = true
 #   Markdown Files
 # -------------------------------
 
-[*.md]
+[*.{md,markdown}]
 trim_trailing_whitespace = false
-indent_size = 4
 
 # -------------------------------
 

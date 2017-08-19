@@ -53,8 +53,8 @@
 /*  4. Layout-Related Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+@import 'layout/layout';
 @import 'layout/navbar';
-@import 'layout/hero';
 @import 'layout/footer';
 
 
@@ -88,3 +88,5 @@
 
 /*  7. Themes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@import 'themes/lumen';
