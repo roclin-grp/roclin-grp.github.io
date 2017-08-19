@@ -9,6 +9,10 @@ layout: default
 
 
 
+
+
+
+
 <!-- Jumbotron
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -21,6 +25,10 @@ layout: default
 </div>
 
 <!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
 
 
 
@@ -43,6 +51,10 @@ layout: default
 
 
 
+
+
+
+
 <!-- Section Primary BG
 ––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -53,6 +65,83 @@ layout: default
 </div>
 
 <!-- –––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+
+
+
+<!-- Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="cards-section cards">
+  <div class="container-fluid">
+    <div class="row">
+    <!--
+      <div class="col-xs-12 col-lg-4">
+        <div class="thumbnail card">
+          <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
+          <div class="caption">
+            <h3>Could be</h3>
+            <p>cards leading to our internal or external presence</p>
+            <p>
+              <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    -->
+      <div class="col-xs-12 col-lg-4">
+        <div class="thumbnail card">
+          <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
+          <div class="caption">
+            <h3>Could be</h3>
+            <p>different demographics we want to reach out to with use cases or connection to contact or find more info.</p>
+            <p>
+              <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-lg-4">
+        <div class="thumbnail card">
+          <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
+          <div class="caption">
+            <h3>Could be</h3>
+            <p>statistics broadly describing the features or the impact of our product, market size(s), efficiency improved.</p>
+            <p>
+              <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-xs-12 col-lg-4">
+        <div class="thumbnail card">
+          <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
+          <div class="caption">
+            <h3>Could even be</h3>
+            <p>something weird like the number of cryptocurrency projects and how convoluted and confusing the blockhole is...</p>
+            <p>
+              <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
 
 
 
@@ -71,6 +160,10 @@ layout: default
 
 
 
+
+
+
+
 <!-- Section Info BG
 ––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -85,6 +178,10 @@ layout: default
 
 
 
+
+
+
+
 <!-- Section Warning BG
 ––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -95,6 +192,10 @@ layout: default
 </div>
 
 <!-- –––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
 
 
 
