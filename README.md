@@ -1,6 +1,44 @@
 Company Site
 ============
 
+
+
+
+Getting Started
+---------------
+
+__Prerequisites__
+
+ - [Ruby](https://www.ruby-lang.org/en/downloads/) >=`2.4.0`
+ - [Bundler](http://bundler.io/) >=`1.5.3` (`gem install bundler`)
+ 
+__Installation__
+
+ - Clone the repository and enter the directory:
+   ```sh
+   git clone https://github.com/roclin-grp/roclin-grp.github.io.git
+   cd roclin-grp.github.io/
+   ```
+ - Switch to the `develop` branch:
+   ```sh
+   git checkout develop
+   ```
+ - Install application gems:
+   ```sh
+   bundle install
+   ```
+ - Serve and auto-generate on watch:
+   ```
+   jekyll serve
+   ```
+ - Navigate to [`127.0.0.1:4000/`](http://127.0.0.1:4000/):
+
+
+
+
+* * *
+
+
 Task List
 ---------
 
