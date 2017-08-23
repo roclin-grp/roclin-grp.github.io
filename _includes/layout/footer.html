@@ -17,11 +17,15 @@
       <div class="col-sm-12">
 
         <ul class="footer-nav">
-          <li class="footer-nav__item">
-            <a href="#">
-              <!--include svg/linkedin.svg class="outline"-->
-            </a>
-          </li>
+          {% for item in site.data.nav.social %}
+            {% assign icon = "svg/" | append: item.icon %}
+            <li class="footer-nav__item">
+              <a href="{{ item.path }}" alt="{{ item.title }}">
+                {% include {{ icon }} %}
+              </a>
+            </li>
+            {% include components/nav-item.html path = link.path title = link.title class_li = "footer-nav__item" %}
+          {% endfor %}
         </ul>
 
       </div>

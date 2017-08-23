@@ -3,6 +3,12 @@
 $btn-top-bg:         $brand-info;
 $btn-top-bg-active:  darken($brand-info, 25%);
 
+$nav-icon-size:     32px;
+$nav-icon-padding:  4px;
+
+$nav-icon-fill: #ccc;
+$nav-icon-fill-active: #fff;
+
 footer {
   margin: 0;
   padding-top: 8rem;
@@ -25,6 +31,31 @@ footer {
       outline: none;
       border-radius: 2px;
       box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    }
+
+    .footer-nav {
+      &__item {
+        list-style-type: none;
+        list-style-image: none;
+        list-style-position: outside;
+        display: block;
+        float: right;
+        > a {
+          display: block;
+          padding: $nav-icon-padding;
+          > svg {
+            width: auto;
+            height: $nav-icon-size;
+            margin: 0 auto;
+            fill: $nav-icon-fill;
+            &:hover {
+              path {
+                fill: $nav-icon-fill-active;
+              }
+            }
+          }
+        }
+      }
     }
 
   }

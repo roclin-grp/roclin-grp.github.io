@@ -1,0 +1,8 @@
+# Meta Site Navigation Links
+- id: "terms of service"
+  title: "Terms of Service"
+  path: /terms/
+
+- id: "privacy policy"
+  title: "Privacy Policy"
+  path: /privacy/

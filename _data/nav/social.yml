@@ -1,0 +1,15 @@
+# Social Media Navigation Links
+- id: "facebook"
+  title: "Facebook"
+  icon: "facebook.svg"
+  path: https://facebook.com
+
+- id: "twitter"
+  title: "Twitter"
+  icon: "twitter.svg"
+  path: https://twitter.com
+
+- id: "github"
+  title: "GitHub"
+  icon: "github.svg"
+  path: https://github.com/roclin-grp
