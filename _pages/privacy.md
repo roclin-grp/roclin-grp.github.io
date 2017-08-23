@@ -1,10 +1,15 @@
 ---
 layout      : page
-title       : Privacy
+title       : Privacy Policy
 permalink   : /privacy/
 ---
 
-Mission
--------
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat mauris mattis efficitur mattis. In hac habitasse platea dictumst. Nunc ullamcorper urna in eros faucibus elementum. Vestibulum sed augue placerat, bibendum quam et, finibus augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque mattis rutrum lorem, quis rhoncus mauris dictum vel. Integer a eros vel orci maximus posuere vitae sed est. Quisque vel massa hendrerit, gravida sem fermentum, pellentesque mi. Etiam nec neque enim. Suspendisse aliquet, ante eget efficitur facilisis, nisi turpis maximus elit, non imperdiet neque sem a lacus.</p>
 
-Body text with words
+<p>Donec lobortis erat lectus, ut pretium odio varius ac. Proin nec molestie nisi, sed pharetra turpis. Nam dictum id nulla ac malesuada. Duis convallis, libero sit amet bibendum sodales, est odio dapibus libero, quis aliquet lorem nibh ut libero. Nulla faucibus id nibh quis molestie. Aliquam a dolor bibendum nulla iaculis porta id sit amet libero. Suspendisse potenti. Phasellus tempus, mi et ultrices hendrerit, arcu ante pretium ipsum, ac lacinia dolor urna et risus. Nunc ultricies et nunc sed maximus. Etiam ac ipsum tempor, rhoncus arcu eget, sodales dui. Phasellus lacinia sapien at sapien tristique, eu fermentum velit bibendum. Quisque mattis efficitur est nec suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ultricies tortor vel laoreet consectetur.</p>
+
+<p>Duis vel consectetur libero, vel viverra eros. Sed id ipsum non ex commodo blandit consectetur vitae diam. Curabitur convallis, ipsum quis porttitor feugiat, quam risus rhoncus lectus, vehicula vehicula nibh ante in lorem. Praesent tincidunt nibh id nisi tincidunt, nec commodo orci blandit. Sed placerat leo nec dui feugiat iaculis. Cras vehicula interdum lorem. Proin sed maximus massa. Morbi ac maximus urna. Sed fermentum odio nec ipsum ullamcorper pharetra. Maecenas commodo leo at nibh tempus, nec sollicitudin ante congue. Donec placerat lacinia eros, nec tristique felis venenatis sit amet. Proin enim nibh, laoreet at facilisis id, ultrices in justo. Nam interdum congue augue. Cras neque neque, rhoncus id lectus non, rhoncus rutrum dolor. Vivamus euismod dolor pretium diam fermentum malesuada.</p>
+
+<p>Mauris et tristique quam, vel bibendum est. Morbi tincidunt urna ut blandit posuere. Cras mattis justo quis sapien commodo venenatis. Nulla faucibus gravida metus, volutpat elementum nisl consequat nec. Praesent laoreet lorem id justo hendrerit, id pharetra quam sollicitudin. Cras fermentum viverra tristique. Suspendisse sapien turpis, tincidunt sed magna ac, luctus malesuada sem. Sed id convallis lacus, in mollis ex. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam est ligula, finibus vitae ligula ut, convallis dictum mi. Etiam id nisi dolor. Etiam a justo neque.</p>
+
+<p>Donec nec est orci. Praesent imperdiet dui mi, at dignissim tortor placerat ut. Quisque placerat faucibus magna, id ultrices ante rutrum in. In rutrum pretium augue, eget vestibulum quam finibus a. Donec sed varius ligula. Nulla dignissim ipsum malesuada, accumsan ex id, luctus dui. Curabitur a elit ac eros semper sagittis. Mauris at tincidunt quam, in mattis dui. Sed at nunc ac orci gravida malesuada. Etiam blandit turpis venenatis, sollicitudin erat ut, sollicitudin dolor.</p>
