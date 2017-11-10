@@ -43,7 +43,12 @@
 
       <ul class="nav navbar-nav navbar-right nav--social">
         {% for item in site.data.nav.social %}
-          {% include components/nav-item.html title = item.title path = item.path current = page.url %}
+          {% include components/nav-item.html
+              icon = item.icon
+              text = item.title
+              path = item.path
+              current = page.url
+          %}
         {% endfor %}
       </ul>
 
@@ -51,7 +56,11 @@
 
       <ul class="nav navbar-nav navbar-right nav--pages">
         {% for page in site.data.nav.pages %}
-          {% include components/nav-item.html title = page.title path = page.path current = page.url %}
+          {% include components/nav-item.html
+              text = page.title
+              path = page.path
+              current = page.url
+          %}
         {% endfor %}
       </ul>
 

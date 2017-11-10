@@ -1,3 +1,9 @@
-<li class="{{ include.class_li }}">
-  <a href="{{ include.path }}">{{ include.title }}</a>
+<li class="{{ include.class }}">
+  <a href="{{ include.path }}">
+    {% if include.icon %}
+      {% include {{ include.icon | prepend: 'svg/' }} %}
+    {% else %}
+      {{ include.text }}
+    {% endif %}
+  </a>
 </li>
