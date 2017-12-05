@@ -18,8 +18,8 @@ layout      : default
 
 <div class="jumbotron hero-unit">
   <div class="container">
-    <h1>Declarative Header Text Left Alignment at Slightly Offset Position</h1>
-    <p>Declarative Header Text Left Alignment at Slightly Offset Position</p>
+    <h1>Rise. Collaborate for a shared Lineage.</h1>
+    <p>Data solutions that bring ideas and people together.</p>
     <a class="btn btn-primary btn-lg" href="#" role="button">Let's find out! &raquo;</a>   
   </div>
 </div>
@@ -39,10 +39,12 @@ layout      : default
 <div class="content-section">
   <div class="container showcase">
     <div class="page-header">
-      <h1>Title Text</h1>
+      <h1>What would you do if we could rise above the cycle?</h1>
     </div>
-    <p class="lead">Body text with words Body text with words body text with words.</p>
-    <p>Body text <a href="/about">with</a> words.</p>
+    <p class="lead">Blockchain solutions neighborhoods, businesses, and networks trust.</p>
+    <p>Our products aren't designed for an Internet of things. We're here for an Internet of people.</p>
+    <p><a href="/about"> Get to know</a> us.</p>
+    <p><a href="/contact">Join</a> our team.</p>
   </div>
 </div>
 
@@ -60,7 +62,8 @@ layout      : default
 
 <div class="layout-section bg-primary">
   <div class="container">
-    <p class="text-center">Could be simple as a color or a long ________ bar ________.  Could be a shape, like a stretched cross or box, etc.</p>
+    <p class="text-center">Our relationship to data is the foundation for an inclusive economy.</p>
+    <p class="text-center">Demo coming soon. Join our contact list today and join the conversation!</p>
   </div>
 </div>
 

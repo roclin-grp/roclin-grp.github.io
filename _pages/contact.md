@@ -19,7 +19,14 @@ permalink   : /contact/
     <div class="page-header">
       <h1>Contact</h1>
     </div>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat mauris mattis efficitur mattis. In hac habitasse platea dictumst. Nunc ullamcorper urna in eros faucibus elementum. Vestibulum sed augue placerat, bibendum quam et, finibus augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque mattis rutrum lorem, quis rhoncus mauris dictum vel. Integer a eros vel orci maximus posuere vitae sed est. Quisque vel massa hendrerit, gravida sem fermentum, pellentesque mi. Etiam nec neque enim. Suspendisse aliquet, ante eget efficitur facilisis, nisi turpis maximus elit, non imperdiet neque sem a lacus.</p>
+    <p class="lead">We are looking for the outcasts, the autodidact, iconoclast who wants to be a part of change to build a better world. Our mission is to apply technology with human oriented design to connect people, and that takes diverse perspectives to achieve.</p>
+
+    <p class="lead">At this point we are most enthused to meet any developers, interns, crypto-experts, data scientists, designers, web developers and blockchain engineers with skill sets that cross in between any of the above.</p>
+
+    <p class="lead">Partners who would like to get involved in creating social action, creating content for multiple perspectives through whatever medium, curating content, comparing philosophies or connecting business. We’d like to keep in touch.</p>
+
+    <p class="lead">Anyone who may like to spread the word about our mission, ask questions and become an early adopter of our products, please drop your name in the metaphorical hat!
+</p>
   </div>
 </div>
 

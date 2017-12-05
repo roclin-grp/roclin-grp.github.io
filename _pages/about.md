@@ -56,7 +56,7 @@ permalink   : /about/
 
 <div class="layout-section bg-primary">
   <div class="container">
-    <p class="text-center">Could be simple as a color or a long ________ bar ________.  Could be a shape, like a stretched cross or box, etc.</p>
+    <p class="text-center">Contact us to find out more.</p>
   </div>
 </div>
 
