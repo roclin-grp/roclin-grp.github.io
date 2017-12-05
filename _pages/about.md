@@ -16,7 +16,8 @@ permalink   : /about/
 
 <div class="jumbotron hero-unit">
   <div class="container">
-    <h1>Declarative Header Text Left Alignment at Slightly Offset Position</h1>
+    <h1>we are a Centrally Organized Decentralized Entity</h1>
+
   </div>
 </div>
 
@@ -37,8 +38,15 @@ permalink   : /about/
     <div class="page-header">
       <h1>Mission</h1>
     </div>
-    <p class="lead">Body text with words</p>
-    <p>Body text with words.</p>
+    <p class="lead">CODE: Shouldn't your data work for you?</p>
+    <p>Here used as an acronym refers to a business model and programming design principle to bring balance and control between individuals and groups.</p>
+    <p>What does this mean in real terms? CODE defines a flexible social contract for an adaptive social contract, our products are inclusively individualized.</p>
+    <p>Most importantly we're ushering in a new relationship to data:</p>
+    <p class="text-center">How data is visualized</p>
+    <p class="text-center">How data is moved</p>
+    <p class="text-center">How data is controlled, to be accessed and monetized</p>
+    <p>We believe in not only privacy, but respect. This means keeping the technical simple, modular design, and connecting people through ideas; an end to information silos.</p>
+    <p>In business terms this means there's lower overhead, intermediary oversight, and room for participation by community leaders to partner with us to bring CODE computing to your businesses, communities and organizations as early adopters.</p>
   </div>
 </div>
 
@@ -101,9 +109,9 @@ permalink   : /about/
 
       <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
-          <img data-src="holder.js/300x200?text=Reuben" class="hodor" alt="Reuben">
+          <img data-src="holder.js/300x200?text=Joho" class="hodor" alt="Joho">
           <div class="caption">
-            <h3>Reuben</h3>
+            <h3>Jon Ho</h3>
             <p>Image<br/>Role, Bio, Contact<br/>Social Media Links ?</p>
           </div>
         </div>
