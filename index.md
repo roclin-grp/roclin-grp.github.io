@@ -33,7 +33,7 @@ layout      : default
 
 
 
-<!-- Content Section
+<!-- Content Section Section where I'd like to assemble a scrolling text on a background
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <div class="content-section">
@@ -95,7 +95,8 @@ layout      : default
           </div>
         </div>
       </div>
-    -->
+    --> 
+    <!-- eliminate segment until after products are released
       <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
           <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
@@ -139,7 +140,7 @@ layout      : default
     </div>
   </div>
 </div>
-
+-->
 <!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
 
 
@@ -151,11 +152,11 @@ layout      : default
 
 <!-- Section Success BG
 ––––––––––––––––––––––––––––––––––––––––––––– -->
-
+<!-- Eliminate this segment until later
 <div class="layout-section bg-success">
   <div class="container">
     <p class="text-center">Could be simple as a color or a long ________ bar ________.  Could be a shape, like a stretched cross or box, etc.</p>
   </div>
 </div>
-
+-->
 <!-- –––––––––––––––––––––––––––––––––––––––– -->
