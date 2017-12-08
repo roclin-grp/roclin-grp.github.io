@@ -47,8 +47,19 @@ permalink   : /about/
     <p class="text-center">How data is controlled, to be accessed and monetized</p>
     <p>We believe in not only privacy, but respect. This means keeping the technical simple, modular design, and connecting people through ideas; an end to information silos.</p>
     <p>In business terms this means there's lower overhead, intermediary oversight, and room for participation by community leaders to partner with us to bring CODE computing to your businesses, communities and organizations as early adopters.</p>
+
+    <div class="page-header"></div>
+
+    <p class="lead">We are looking for the outcasts, the autodidact, iconoclast who wants to be a part of change to build a better world. Our mission is to apply technology with human oriented design to connect people, and that takes diverse perspectives to achieve.</p>
+
+    <p class="lead">At this point we are most enthused to meet any developers, interns, crypto-experts, data scientists, designers, web developers and blockchain engineers with skill sets that cross in between any of the above.</p>
+
+    <p class="lead">Partners who would like to get involved in creating social action, creating content for multiple perspectives through whatever medium, curating content, comparing philosophies or connecting business. We’d like to keep in touch.</p>
+
+    <p class="lead">Anyone who may like to spread the word about our mission, ask questions and become an early adopter of our products, please drop your name in the metaphorical hat!</p>
+    </div>
   </div>
-</div>
+
 
 <!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -64,7 +75,7 @@ permalink   : /about/
 
 <div class="layout-section bg-primary">
   <div class="container">
-    <p class="text-center">Contact us to find out more.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Let's find out! &raquo;</a> 
   </div>
 </div>
 
@@ -150,7 +161,7 @@ permalink   : /about/
           <img data-src="holder.js/300x200?text=Developer Team" class="hodor" alt="Developer Team">
           <div class="caption">
             <h3>Developer Team</h3>
-            <p>(I think at the point of officially moving to hire, taking<br/>on partnerss, or inviting interns or open source or short<br/>term contract developers.</p>
+            <p>(I think at the point of officially moving to hire, taking<br/>on partners, or inviting interns or open source or short<br/>term contract developers.</p>
           </div>
         </div>
       </div>
