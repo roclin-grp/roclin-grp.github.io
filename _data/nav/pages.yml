@@ -11,12 +11,12 @@
   title: "About"
   path: /about/
 
-- title: Product
-  path: /product/
+#- title: Product
+  #path: /product/
 
-- id: "pricing"
-  title: "Pricing"
-  path: /pricing/
+#- id: "pricing"
+ # title: "Pricing"
+  #path: /pricing/
 
 - id: "contact"
   title: "Contact"

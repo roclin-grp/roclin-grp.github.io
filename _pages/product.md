@@ -16,7 +16,7 @@ permalink   : /product/
 
 <div class="jumbotron hero-unit">
   <div class="container">
-    <h1>Declarative Header Text Left Alignment at Slightly Offset Position</h1>
+    <h1>This page may be later revamped as the use-cases and demo in next iteration</h1>
   </div>
 </div>
 

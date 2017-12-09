@@ -3,9 +3,10 @@ layout:     post
 title:      "Variables"
 date:       2017-08-02 09:00:00 -0400
 categories:
+author: 	Maverick Barona
 ---
 
-Variables
+
 
 
 ### Global Variables ###

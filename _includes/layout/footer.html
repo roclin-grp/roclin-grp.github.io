@@ -1,12 +1,27 @@
 <footer class="site__footer">
 
+<script>
+window.onscroll=function() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementbyId("btn-top").style.display="block";
+    } else {
+        document.getElementbyId("btn-top").style.display = "none";
+    }
+
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
   <div class="container">
 
-    <button class="btn btn-primary" id="btn-top">
+    <button class="btn btn-primary" id="btn-top" onclick="topFunction()">
       <span>Back to top</span>
     </button>
-
-
 
 
     <!-- Footer Navigation
