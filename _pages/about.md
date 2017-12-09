@@ -75,7 +75,7 @@ permalink   : /about/
 
 <div class="layout-section bg-primary">
   <div class="container">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Let's find out! &raquo;</a> 
+    <a class="btn btn-primary btn-lg" href="/contact" role="button">Join our network of collaborators &raquo;</a> 
   </div>
 </div>
 
@@ -158,10 +158,10 @@ permalink   : /about/
     <div class="row">
       <div class="col-xs-12 col-md-4 col-md-offset-4">
         <div class="thumbnail card">
-          <img data-src="holder.js/300x200?text=Developer Team" class="hodor" alt="Developer Team">
+          <img data-src="holder.js/300x200?text=Collaborators" class="hodor" alt="Collaborators">
           <div class="caption">
-            <h3>Developer Team</h3>
-            <p>(I think at the point of officially moving to hire, taking<br/>on partners, or inviting interns or open source or short<br/>term contract developers.</p>
+            <h3>Collaborators</h3>
+            <p>Advisors, Consultants, and Partners connecting our vision to real world use cases.</p>
           </div>
         </div>
       </div>
