@@ -3,13 +3,13 @@
   title: "Home"
   path: /
 
-- id: "blog"
-  title: "Blog"
-  path: /blog/
-
 - id: "about"
   title: "About"
   path: /about/
+
+- id: "blog"
+  title: "Blog"
+  path: /blog/
 
 #- title: Product
   #path: /product/
