@@ -27,11 +27,10 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 <!-- Post Footer -->
 
 
+{{ "          Have a perspective to share on this conversation? Share it with us on [twitter][twitter], or catch us on the cloud forum (coming soon)
+Be sure to share your post @roclineage #: page.categories 
+          " | strip }}
 
 
-[horizontal bar]
-
-Have a perspective to share on this conversation? Share it with us on [twitter][twitter], or catch us on the cloud forum (coming soon)
-Be sure to share your post @roclineage #: {% categories %}
 
 [twitter]: https://twitter.com/roclineage
