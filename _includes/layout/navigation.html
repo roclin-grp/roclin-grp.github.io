@@ -20,7 +20,7 @@
       </button>
 
       <a class="navbar-brand" href="/">
-        {{ site.title }}
+        <span><img src="/images/rlg-concept-61x65.png"> {{ site.title }}</span>
       </a>
 
     </div>
@@ -39,7 +39,9 @@
 
     <div id="navbar" class="navbar-collapse collapse">
 
-      <ul class="nav navbar-nav navbar-right nav--social">
+
+
+      <ul class="nav navbar-nav navbar-right nav--pages">
         {% for item in site.data.nav.social %}
           {% include components/nav-item.html
               icon = item.icon
@@ -49,6 +51,8 @@
           %}
         {% endfor %}
       </ul>
+
+
 
       <!-- vertical divider -->
 

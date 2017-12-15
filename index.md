@@ -3,83 +3,28 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title       : Home
-layout      : default
+layout      : cover
 ---
 
 
 
 
-<!-- begin carousel -->
-
-<div class="container">
-  <div class="row">
-     <div class="col-md-12">
-                    <div id="carousel-landing" class="container" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-landing" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-landing" data-slide-to="1"></li>
-                            <li data-target="#carousel-landing" data-slide-to="2"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img src="images/carousel1.jpg" alt="who we are">
-                                <div class="carousel-caption">
-                                    <h1>Rise. Collaborate for a shared Lineage.</h1>
-                                    <a class="btn btn-primary btn-lg" href="/about" role="button">Learn about our project. &raquo;</a> 
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/carousel2.jpg" alt="roclineage blog">
-                                 <div class="carousel-caption">
-                                     <h1>Data solution to bring ideas and people together.</h1>
-                                     <a class="btn btn-primary btn-lg" href="/blog" role="button">Share your perspective. &raquo;</a> 
-                                 </div>
-                            </div>
-                            <div class="item">
-                              <img src="images/carousel3.jpg" alt="work with us">
-                              <div class="carousel-caption">
-                                <h1>Alpha release 2018. Follow us for updates</h1>
-                                <a class="btn btn-primary btn-lg" href="/contact" role="button">Work with us. &raquo;</a> 
-                              </div>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-landing" role="button" onclick="$('#carousel-landing').carousel('prev')">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-landing" role="button" data-slide="next" onclick="$('#carousel-landing').carousel('prev')">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-<!-- end carousel -->
-
-<!-- future we will consider moving A-B-C carousel links down to cards underneath. possibly without a header as well on this page
- Jumbotron
-–––––––––––––––––––––––––––––––––––––––––––––––––– 
+<!-- Would like image to maybe be opaque underneath the text. black background for this segment. 
+––––––––––––––––––––––––––––––––––––––––––––––––––  -->
 
 <div class="jumbotron hero-unit">
   <div class="container" id="about1">
-    <h1>Rise. Collaborate for a shared Lineage.</h1>
-    <p>Data solutions that bring ideas and people together.</p>
-    <a class="btn btn-primary btn-lg" href="/about" role="button">Let's find out! &raquo;</a>   
+    <p><img src="/images/rlg-concept2-102x110.png" alt="roclin-logo"></p>
+    <p>The roclin group is a centrally organized partnership of decentralized entities developing a nonlinear media platform for rendering data to improve search. This method is aimed to solve the problem of finding information when you're not an expert in what good search results look like, or would like to manipulate algorithm promoting results. This innovation implemented over a decentralized network will serve to make indexing and machine learning not only feasible but beneficial to the rights and privacy of data traveling through a more respectable, secure and sensible Internet of Things.</p>
+    <p><a class="btn btn-primary btn-lg" href="/about" role="button">Find out more! &raquo;</a>   </p>
   </div>
 </div>
 
-––––––––––––––––––––––––––––––––––––––––––––– 
+<!-- –––––––––––––––––––––––––––––––––––––––––––––  -->
 
 
 
-Content Section 
+<!-- Content Section 
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 <div class="content-section">
@@ -113,7 +58,7 @@ Content Section
   </div>
 </div>
 
-<!-- –––––––––––––––––––––––––––––––––––––––– -->
+ –––––––––––––––––––––––––––––––––––––––– -->
 
 
 
@@ -142,15 +87,14 @@ Content Section
         </div>
       </div>
     --> 
-    <!-- eliminate segment until after products are released
       <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
-          <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
+          <a href="/about"><img data-src="holder.js/300x200" class="about" alt="Hodor"></a>
           <div class="caption">
-            <h3>Could be</h3>
-            <p>different demographics we want to reach out to with use cases or connection to contact or find more info.</p>
+            <h3>Our Mission</h3>
+            <p>Life is a balancing act. We design tools with not only privacy, but respect in mind. Our aim is to cut through the noise, to allow everyone the ability to choose and understand how information enters their feed.</p>
             <p>
-              <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+              <a class="btn btn-default" href="/about" role="button">Get to know us briefly &raquo;</a>
             </p>
           </div>
         </div>
@@ -158,12 +102,12 @@ Content Section
 
       <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
-          <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
+          <a href="/blog"><img data-src="holder.js/300x200" class="blog" alt="Blog"></a>
           <div class="caption">
-            <h3>Could be</h3>
-            <p>statistics broadly describing the features or the impact of our product, market size(s), efficiency improved.</p>
+            <h3>Perspective</h3>
+            <p>We are working to bring human oriented design to the structure of business and flow of data through the Internet. Follow along our journey as it unfolds.</p>
             <p>
-              <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+              <a class="btn btn-default" href="/blog" role="button">View details &raquo;</a>
             </p>
           </div>
         </div>
@@ -173,10 +117,10 @@ Content Section
         <div class="thumbnail card">
           <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
           <div class="caption">
-            <h3>Could even be</h3>
-            <p>something weird like the number of cryptocurrency projects and how convoluted and confusing the blockhole is...</p>
+            <h3>Contact</h3>
+            <p>Sign our guestbook and we will send you something nice as we lift our boot straps off the ground.</p>
             <p>
-              <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+              <a class="btn btn-default" href="/contact" role="button">Join us &raquo;</a>
             </p>
           </div>
         </div>
@@ -186,7 +130,7 @@ Content Section
     </div>
   </div>
 </div>
--->
+
 <!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
 
 

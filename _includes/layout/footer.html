@@ -27,25 +27,6 @@ function topFunction() {
     <!-- Footer Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <div class="row">
-
-      <div class="col-sm-12">
-
-        <ul class="footer-nav">
-          {% for item in site.data.nav.social %}
-            {% assign icon = "svg/" | append: item.icon %}
-            <li class="footer-nav__item">
-              <a href="{{ item.path }}" alt="{{ item.title }}">
-                {% include {{ icon }} %}
-              </a>
-            </li>
-            {% include components/nav-item.html path = link.path title = link.title class_li = "footer-nav__item" %}
-          {% endfor %}
-        </ul>
-
-      </div>
-
-    </div>
 
     <!-- Footer Navigation –––––––––––––––––––––––––– -->
 
@@ -58,6 +39,7 @@ function topFunction() {
     <div class="row">
 
       <div class="col-sm-12">
+      <br>
 
         <p class="copyright text-center">
           &copy; 2017 {{ site.title }} &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></p>
