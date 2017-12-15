@@ -1,0 +1,22 @@
+// Default template styles
+
+body {
+
+  // Default Layout
+  &.default,
+  &.blog,
+  &.page,
+  &.post {
+    margin-top: 1.5rem;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+
+    min-height: 100%;
+    height: 100%;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+}

@@ -1,0 +1,11 @@
+{% include head/top.html %}
+
+{% include head/meta.html %}
+
+{% include head/social.html %}
+
+{% include head/assets.html %}
+
+{% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+{% endif %}

@@ -1,0 +1,82 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+
+
+
+
+
+
+
+    <!-- Navbar Header
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="/">
+        <span><img src="/images/rlg-concept-61x65.png"> {{ site.title }}</span>
+      </a>
+
+    </div>
+
+    <!-- Navbar Header ––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+
+
+
+    <!-- Navbar Collapse
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <div id="navbar" class="navbar-collapse collapse">
+
+
+
+      <ul class="nav navbar-nav navbar-right nav--pages">
+        {% for item in site.data.nav.social %}
+          {% include components/nav-item.html
+              icon = item.icon
+              text = item.title
+              path = item.path
+              current = page.url
+          %}
+        {% endfor %}
+      </ul>
+
+
+
+      <!-- vertical divider -->
+
+      <ul class="nav navbar-nav navbar-right nav--pages">
+        {% for page in site.data.nav.pages %}
+          {% include components/nav-item.html
+              text = page.title
+              path = page.path
+              current = page.url
+          %}
+        {% endfor %}
+      </ul>
+
+    </div>
+
+    <!-- Navbar Collapse ––––––––––––––––––––––––––––– -->
+
+
+
+
+
+
+
+
+  </div>
+
+</nav>

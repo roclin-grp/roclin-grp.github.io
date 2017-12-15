@@ -1,0 +1,32 @@
+# Main Site Navigation Links
+- id: "home"
+  title: "Home"
+  path: /
+
+- id: "about"
+  title: "About"
+  path: /about/
+
+- id: "blog"
+  title: "Blog"
+  path: /blog/
+
+#- title: Product
+  #path: /product/
+
+#- id: "pricing"
+ # title: "Pricing"
+  #path: /pricing/
+
+- id: "contact"
+  title: "Contact"
+  path: /contact/
+
+# File: _includes/components/nav-item.html
+# <li>
+#   <a href="{{ include.path }}">{{ include.title }}</a>
+# </li>
+#
+# Usage:
+# {% include components/nav-item.html title = item.title path = item.path current = page.url %}
+#
