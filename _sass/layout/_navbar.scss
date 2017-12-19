@@ -11,6 +11,8 @@
 .navbar-nav {
   &--social {
     margin: ($navbar-padding-vertical / 2) (-$navbar-padding-horizontal);
+  &--pages {
+    margin: ($navbar-padding-vertical / 2) (-$navbar-padding-horizontal);
 
     > li > a {
       padding-top:    10px;
@@ -23,7 +25,7 @@
         color: #000;
       }
     }
-
+  }
   }
 }
 
@@ -69,6 +71,7 @@
 }
 
 /* ––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 
 

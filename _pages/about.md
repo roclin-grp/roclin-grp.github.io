@@ -41,10 +41,10 @@ permalink   : /about/
     <p class="lead">CODE: Shouldn't your data work for you?</p>
     <p>Here used as an acronym refers to a business model and programming design principle to bring balance and control between individuals and groups.</p>
     <p>What does this mean in real terms? CODE defines a flexible social contract for an adaptive social contract, our products are inclusively individualized.</p>
-    <p>Most importantly we're ushering in a new relationship to data:</p>
-    <p class="text-center">How data is visualized</p>
-    <p class="text-center">How data is moved</p>
-    <p class="text-center">How data is controlled, to be accessed and monetized</p>
+    <p>Roadmap to save the world:</p>
+    <p class="text-center">Untangle the Internet</p>
+    <p class="text-center">Control the filter</p>
+    <p class="text-center">Implement Alex Pentland of MIT's New Deal on Data.</p>
     <p>We believe in not only privacy, but respect. This means keeping the technical simple, modular design, and connecting people through ideas; an end to information silos.</p>
     <p>In business terms this means there's lower overhead, intermediary oversight, and room for participation by community leaders to partner with us to bring CODE computing to your businesses, communities and organizations as early adopters.</p>
 

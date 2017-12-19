@@ -1,9 +1,10 @@
 ---
 layout:     post
-title:      "Welcome to Jekyll!"
-date:       2017-08-01 00:04:43 -0400
-categories: jekyll update
+title:      "Developer's Diary 1"
+date:       2017-08-03 09:00:00 -0400
+categories: culture devdiary
 ---
+
 
 	There is more than one way to do any thing. This fact makes life easy, but it also makes communicating hard. Harder even if you're a computer and lack any kind of context that your human creator has yet to encode to possibilities. 
 

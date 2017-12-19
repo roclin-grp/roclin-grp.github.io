@@ -1,7 +1,7 @@
 # Main Site Navigation Links
-- id: "home"
-  title: "Home"
-  path: /
+# - id: "home"
+#  title: "Home"
+#  path: /
 
 - id: "about"
   title: "About"
