@@ -1,7 +1,7 @@
 ---
-layout      : page
+layout      : cover
 title       : Landing Page
-permalink   : /landing/
+permalink   : /
 ---
 
 
@@ -87,7 +87,7 @@ permalink   : /landing/
     --> 
       <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
-          <a href="/about"><img data-src="holder.js/300x200" class="about" alt="Hodor"></a>
+          <a href="/about"><img data-src="holder.js/300x200" class="about" alt="About our project"></a>
           <div class="caption">
             <h3>Our Mission</h3>
             <p>Life is a balancing act. We design tools with not only privacy, but respect in mind. Our aim is to cut through the noise, to allow everyone the ability to choose and understand how information enters their feed.</p>
@@ -100,7 +100,7 @@ permalink   : /landing/
 
       <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
-          <a href="/blog"><img data-src="holder.js/300x200" class="blog" alt="Blog"></a>
+          <a href="/blog"><img data-src="holder.js/300x200" class="blog" alt="Blog Updates"></a>
           <div class="caption">
             <h3>Perspective</h3>
             <p>We are working to bring human oriented design to the structure of business and flow of data through the Internet. Follow along our journey as it unfolds.</p>
@@ -113,7 +113,7 @@ permalink   : /landing/
       
       <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
-          <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
+          <img data-src="holder.js/300x200" class="contact" alt="Contact">
           <div class="caption">
             <h3>Contact</h3>
             <p>Sign our guestbook and we will send you something nice as we lift our boot straps off the ground.</p>

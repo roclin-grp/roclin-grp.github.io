@@ -39,21 +39,21 @@ permalink   : /blog/
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <img src="images/blog/carousel1.png" alt="who we are">
+                                <img src="/images/blog/carousel1.png" alt="who we are">
                                 <div class="carousel-caption">
                                     <h1></h1>
                                     <a class="btn btn-primary btn-lg" href="/about" role="button">Learn about our project. &raquo;</a> 
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="images/blog/carousel2.png" alt="roclineage blog">
+                                <img src="/images/blog/carousel2.png" alt="roclineage blog">
                                  <div class="carousel-caption">
                                      <h1></h1>
                                      <a class="btn btn-primary btn-lg" href="/blog" role="button">Share your perspective. &raquo;</a> 
                                  </div>
                             </div>
                             <div class="item">
-                              <img src="images/blog/carousel3.png" alt="work with us">
+                              <img src="/images/blog/carousel3.png" alt="work with us">
                               <div class="carousel-caption">
                                 <h1></h1>
                                 <a class="btn btn-primary btn-lg" href="/contact" role="button">Work with us. &raquo;</a> 
