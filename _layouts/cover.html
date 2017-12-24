@@ -1,16 +1,22 @@
-{% include vars.html %}
-<!doctype html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  <body class="{{ page.layout }}">
-
-
-    {% include body.html %}
-
-
-    {{content}}
+---
+layout      : landing
+---
 
 
 
-  </body>
-</html>
+
+
+
+<!-- Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="content-section">
+  <div class="container">
+    <div class="page-header">
+
+    {{ content }}
+    </div
+>  </div>
+</div>
+
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->

@@ -1,0 +1,25 @@
+{% include vars.html %}
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+
+    {% include head.html %}
+
+  </head>
+  <body class="{{ page.layout }}">
+
+
+    {% include body.html %}
+
+
+
+
+    {{content}}
+
+
+    {% include layout/footer.html %}
+
+
+
+  </body>
+</html>
