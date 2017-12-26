@@ -13,7 +13,7 @@ permalink   : /
 <div class="jumbotron hero-unit">
   <div class="container" id="about1">
     <p><img src="/images/rlg-concept2-102x110.png" alt="roclin-logo"></p>
-    <p>The roclin group is a centrally organized partnership of decentralized entities developing a nonlinear media platform for rendering data to improve search. This method is aimed to solve the problem of finding information when you're not an expert in what good search results look like, or would like to manipulate algorithm promoting results. This innovation implemented over a decentralized network will serve to make indexing and machine learning not only feasible but beneficial to the rights and privacy of data traveling through a more respectable, secure and sensible Internet of Things.</p>
+    <p>The roclin group is a centrally-organized-decentralized-entity developing search solutions for IoT and blockchain-decentralized data. Our first web application is currently schedule for release Q2 of 2018, stay tuned for updates.</p>
     <p><a class="btn btn-primary btn-lg" href="/about" role="button">Find out more! &raquo;</a>   </p>
   </div>
 </div>

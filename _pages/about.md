@@ -16,8 +16,8 @@ permalink   : /about/
 
 <div class="jumbotron hero-unit">
   <div class="container">
-    <h1>we are a Centrally Organized Decentralized Entity</h1>
-
+    <h1>Rise of Collaboration</h1>
+    <p>For the shared lineage of the group.</p>
   </div>
 </div>
 
@@ -39,7 +39,7 @@ permalink   : /about/
       <h1>Mission</h1>
     </div>
     <p class="lead">CODE: Shouldn't your data work for you?</p>
-    <p>Here used as an acronym refers to a business model and programming design principle to bring balance and control between individuals and groups.</p>
+    <p>Here used as an acronym, Centrally Organized Decentralized Entity, refers to a business model and programming design principle to bring balance and control between individuals and groups. The kind of trust in data required to build an IoT revolution.</p>
     <p>What does this mean in real terms? CODE defines a flexible social contract for an adaptive social contract, our products are inclusively individualized.</p>
     <p>Most importantly we're ushering in a new relationship to data:</p>
     <p class="text-center">How data is visualized</p>
