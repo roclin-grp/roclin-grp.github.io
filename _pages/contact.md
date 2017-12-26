@@ -1,5 +1,5 @@
 ---
-layout      : cover
+layout      : contact
 title       : Contact
 permalink   : /contact/
 ---
