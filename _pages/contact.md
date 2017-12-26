@@ -1,5 +1,5 @@
 ---
-layout      : contact
+layout      : cover
 title       : Contact
 permalink   : /contact/
 ---
@@ -21,11 +21,7 @@ permalink   : /contact/
     </div>
     <p class="lead">We are looking for the outcasts, the autodidact, iconoclast who wants to be a part of change to build a better world. Our mission is to apply technology with human oriented design to connect people, and that takes diverse perspectives to achieve.</p>
 
-    <p class="lead">At this point we are most enthused to meet any developers, interns, crypto-experts, data scientists, designers, web developers and blockchain engineers with skill sets that cross in between any of the above.</p>
-
-    <p class="lead">Partners who would like to get involved in creating social action, creating content for multiple perspectives through whatever medium, curating content, comparing philosophies or connecting business. We’d like to keep in touch.</p>
-
-    <p class="lead">Anyone who may like to spread the word about our mission, ask questions and become an early adopter of our products, please drop your name in the metaphorical hat!
+    <p class="lead">The world we live in has been built upon the shoulders of giants; if you are interested in contributing or partnering to become one of those giants, drop your info in our hat here:
 </p>
   </div>
 </div>
@@ -40,7 +36,7 @@ permalink   : /contact/
 
 
 <!-- Send Message Form
-–––––––––––––––––––––––––––––––––––––––––––––––––– 
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <div class="layout-section bg-primary">
   <div class="container">
@@ -63,11 +59,11 @@ permalink   : /contact/
         
         <form action="" method="post" role="form" class="contactForm">
           <div class="form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <input type="text" name="name" class="form-control" id="name" placeholder="What name do you go by?" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
             <div class="validation"></div>
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+            <input type="email" class="form-control" name="email" id="email" placeholder="The Email we can reach you at" data-rule="email" data-msg="Please enter a valid email" />
             <div class="validation"></div>
           </div>
           <div class="form-group">
@@ -88,7 +84,7 @@ permalink   : /contact/
   </div>
 </div>
 
-––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
 
 
 
