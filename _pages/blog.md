@@ -23,20 +23,20 @@ permalink   : /blog/
 <!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
 
 
-<!-- begin carousel -->
+<!-- begin carousel 
 
 <div class="container">
   <div class="row">
      <div class="slider-size">
                     <div id="carousel-feat" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
+                        <!-- Indicators 
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-feat" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-feat" data-slide-to="1"></li>
                             <li data-target="#carousel-feat" data-slide-to="2"></li>
                         </ol>
 
-                        <!-- Wrapper for slides -->
+                        <!-- Wrapper for slides 
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
                                 <img src="/images/blog/carousel1.png" alt="who we are">
@@ -61,7 +61,7 @@ permalink   : /blog/
                             </div>
                         </div>
 
-                        <!-- Controls -->
+                        <!-- Controls 
                         <a class="left carousel-control" href="#carousel-feat" data-slide="prev">
                             <span class="icon-prev" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
@@ -87,13 +87,13 @@ permalink   : /blog/
 
 <div class="content-section">
   <div class="container showcase">
-    <div class="page-header">
+<!--     <div class="page-header">
       <h1>Featured Articles</h1>
     </div>
-<!--     <ul class="caption-li"><lh>Getting Started</lh>
-    <li>Post about company mission.</li>
-    <li>Second post in list</li>
-    </ul> -->
+ -->    <ul class="caption-li"><li>Coming Soon</li>
+    <!-- <li>Post about company mission.</li>
+    <li>Second post in list</li> -->
+    </ul>
   </div>
 </div>
 
