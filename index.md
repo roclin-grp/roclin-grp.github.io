@@ -17,9 +17,11 @@ permalink   : /
 <div class="jumbotron hero-unit">
   <div class="container" id="about1">
     <p><img src="/images/favicon/mstile-144x144.png" alt="roclin-logo"></p>
-    <p>The roclin group is a CODE partnership, a centrally organized group of decentralized entities. 
-    <div class="well">We are developing a nonlinear media platform to revolutionize the filter, improve search quality and health. Our method is aimed to solve the problem of third party censorship, bias and fake news; finding information when you're not an expert in what good search results look like, and to manipulate algorithm promoting results. This innovation implemented over a decentralized network will serve to make indexing and machine learning not only feasible but beneficial to the rights and privacy of data traveling through a more respectable, secure and sensible Internet of Things.</div></p>
-    <p><a class="btn btn-primary btn-lg" href="/about" role="button">Find out more! &raquo;</a>   </p>
+    <p>The roclin group is a CODE partnership, a centrally organized group of decentralized entities.</p>
+    <div class="well">We are developing a nonlinear media platform to revolutionize the filter, improve search quality and health. Our method is aimed to solve the problem of third party censorship, bias and fake news; finding information when you're not an expert in what good search results look like, and to manipulate algorithm promoting results. This innovation implemented over a decentralized network will serve to make indexing and machine learning not only feasible but beneficial to the rights and privacy of data traveling through a more respectable, secure and sensible Internet of Things.</div>
+    <p>
+      <a class="btn btn-primary btn-lg" href="/about" role="button">Find out more! &raquo;</a>
+    </p>
   </div>
 </div>
 
@@ -76,20 +78,7 @@ permalink   : /
 <div class="cards-section cards">
   <div class="container-fluid">
     <div class="row">
-    <!--
-      <div class="col-xs-12 col-md-4">
-        <div class="thumbnail card">
-          <img data-src="holder.js/300x200" class="hodor" alt="Hodor">
-          <div class="caption">
-            <h3>Could be</h3>
-            <p>cards leading to our internal or external presence</p>
-            <p>
-              <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    --> 
+
       <div class="col-xs-12 col-md-4">
         <div class="thumbnail card">
           <a href="/about"><img src="/images/favicon/information.png" class="about" alt="About our project"></a>
