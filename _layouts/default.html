@@ -18,7 +18,10 @@
     {{content}}
 
 
-    {% include layout/footer.html %}
+    {% if page.ref != "index" %}
+      {% include layout/footer.html %}
+    {% endif %}
+
 
 
     {% include foot.html %}
