@@ -2,6 +2,96 @@
  * Navbar Styles
  */
 
+
+
+
+/*  Navbar icon links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.navbar-nav {
+  &--social {
+    margin: ($navbar-padding-vertical / 2) (-$navbar-padding-horizontal);
+
+    > li > a {
+      padding-top:    10px;
+      padding-bottom: 10px;
+      line-height: $line-height-computed;
+
+      svg {
+        max-height: 20px;
+        width: auto;
+        color: #000;
+      }
+    }
+
+  }
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+/*  Navbar Dividers
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.navbar {
+  .nav-divider {
+    @include nav-divider-vertical($dropdown-divider-bg);
+  }
+
+  @media (max-width: $grid-float-breakpoint-max) {
+    .navbar-collapse {
+      .nav-divider {
+
+      }
+    }
+  }
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+//.icon {
+//  position: relative;
+//  display: inline-block;
+//  width: 20px;
+//  height: 20px;
+//  vertical-align: middle;
+//  top: -2px;
+//}
+//
+//.icon-language {
+//  background-image: url(/assets/language.svg);
+//  margin-right: 4px;
+//}
+
+
 // .navbar-nav-svg {
 //   display: inline-block;
 //   width: 1rem;

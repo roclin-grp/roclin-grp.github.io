@@ -1,2 +1,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+{% if page.title %}
+  {% assign pageTitle = page.title | append: " · " | append: site.title %}
+{% else %}
+  {% assign pageTitle = site.title %}
+{% endif %}
+
+<title>{{ pageTitle | escape }}</title>
