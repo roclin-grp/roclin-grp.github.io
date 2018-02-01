@@ -68,10 +68,6 @@ permalink   : /about/
         <p>Anyone who may like to spread the word about our mission, ask questions and become an early adopter of our products, please drop your name in the metaphorical hat!</p>
       </div>
 
-      <p class="text-center">
-        <a class="btn btn-primary btn-lg" href="/contact" role="button">Join our network of collaborators &raquo;</a>
-      </p>
-
     </div>
 
   </div>
