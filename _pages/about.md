@@ -14,10 +14,15 @@ permalink   : /about/
 <!-- Jumbotron
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<div class="jumbotron hero-unit">
+<div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1>Rise of Collaboration</h1>
-    <p>For the shared lineage of the group.</p>
+    <h1 class="display-4">Rise of Collaboration</h1>
+    <p class="lead">For the shared lineage of the group.</p>
+    <hr class="my-4">
+    <p>Join our network of collaborators!</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/contact/" role="button">Contact Us &raquo;</a>
+    </p>
   </div>
 </div>
 
@@ -104,31 +109,31 @@ permalink   : /about/
 <!-- Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<div class="cards-section cards">
-  <div class="container-fluid">
+<div class="album py-5 bg-light">
+  <div class="container">
+
     <div class="row">
-
-      <div class="col-xs-12 col-md-4 col-md-offset-2">
-        <div class="thumbnail card">
-          <img data-src="holder.js/300x200?text=Mav" class="hodor" alt="Mav">
-          <div class="caption">
-            <h3>CEO & Founder, Maverick Barona</h3>
-            <p>Product Manager leading innovation team to build next generation web applications. An expert in human oriented design and bringing people together to the same side of the table.</p>
+      <div class="col-sm-6 col-md-4 offset-md-2">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Mav" alt="Mav">
+          <div class="card-body">
+            <h5 class="card-title">CEO &amp; Founder, Maverick Barona</h5>
+            <p class="card-text">Product Manager leading innovation team to build next generation web applications. An expert in human oriented design and bringing people together to the same side of the table.</p>
           </div>
         </div>
       </div>
 
-      <div class="col-xs-12 col-md-4">
-        <div class="thumbnail card">
-          <img data-src="holder.js/300x200?text=Joho" class="hodor" alt="Joho">
-          <div class="caption">
-            <h3>Lead Developer, John Ho</h3>
-            <p>A full stack engineer with experience across the business and code aspect for multiple start-ups. A swiss army knife of developers managing implementation of the technical plan.</p>
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Joho" alt="Joho">
+          <div class="card-body">
+            <h5 class="card-title">Lead Developer, John Ho</h5>
+            <p class="card-text">A full stack engineer with experience across the business and code aspect for multiple start-ups. A swiss army knife of developers managing implementation of the technical plan.</p>
           </div>
         </div>
       </div>
-
     </div>
+
   </div>
 </div>
 
@@ -140,7 +145,7 @@ permalink   : /about/
 
 
 
-<hr/>
+<hr class="my-4">
 
 
 
@@ -152,19 +157,20 @@ permalink   : /about/
 <!-- Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<div class="cards-section cards">
-  <div class="container-fluid">
+<div class="album py-5 bg-light">
+  <div class="container">
+
     <div class="row">
-      <div class="col-xs-12 col-md-4 col-md-offset-4">
-        <div class="thumbnail card">
-          <img data-src="holder.js/300x200?text=Collaborators" class="hodor" alt="Collaborators">
-          <div class="caption">
-            <h3>Collaborators</h3>
-            <p>Developers, Advisors, Consultants, and Partners building and connecting our vision to real world use cases.</p>
+      <div class="col-sm-6 col-md-4 offset-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Collaborators" alt="Collaborators">
+          <div class="card-body">
+            <h5 class="card-title">Collaborators</h5>
+            <p class="card-text">Developers, Advisors, Consultants, and Partners building and connecting our vision to real world use cases.</p>
           </div>
         </div>
       </div>
-    </div>
+
   </div>
 </div>
 
