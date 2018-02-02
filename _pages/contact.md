@@ -48,6 +48,7 @@ permalink   : /contact/
 <div class="container">
   <div class="row">
     <div class="col-12 col-md-8 offset-md-2">
+      <h3 class="mb-3">Contact Form</h3>
       <form name="form-contact" method="POST" action="https://formspree.io/mavbarona@gmail.com" target="_blank">
 
         <!-- Remove this before deploying! -->
@@ -61,19 +62,19 @@ permalink   : /contact/
         <!-- Name Input Field -->
         <div class="form-group">
           <label class="sr-only" for="input-name">Name</label>
-          <input required class="form-control" id="input-name" type="text" name="name" placeholder="Your name" minlength="4" />
+          <input required class="form-control" id="input-name" type="text" name="name" placeholder="Your name" minlength="4" maxlength="128" />
         </div>
 
         <!-- Email Input Field -->
         <div class="form-group">
           <label class="sr-only" for="input-email">Email</label>
-          <input required class="form-control" id="input-email" type="email" name="email" placeholder="Email address" />
+          <input required class="form-control" id="input-email" type="email" name="email" placeholder="Email address" minlength="4" maxlength="128" />
         </div>
 
         <!-- Organization Input Field -->
         <div class="form-group">
           <label class="sr-only" for="input-org">Organization</label>
-          <input class="form-control" id="input-org" type="text" name="organization" placeholder="Company or organization (optional)" minlength="4" />
+          <input class="form-control" id="input-org" type="text" name="organization" placeholder="Company or organization (optional)" minlength="2" maxlength="128" />
         </div>
 
         <!-- Subject Select -->
@@ -96,28 +97,39 @@ permalink   : /contact/
         <!-- Roles -->
         <div class="form-group" id="select-describe-group" style="display:none;">
           <label>Select all that apply:</label>
-            <!-- Individual Checkboxes -->
-            <div class="row mx-2">
-              {% for role in site.data.contact.roles %}
-                <div class="form-check col-12 col-md-6 col-lg-4">
-                  <input class="form-check-input" id="{{ role.value }}" type="checkbox" name="{{ role.value }}" value="{{ role.value }}">
-                  <label for="{{ role.value }}">{{ role.label }}</label>
-                </div>
-              {% endfor %}
+          <!-- TODO: Use select multiple instead of checkboxes -->
+          <div class="row mx-2">
+            <div class="form-check col-12 col-md-6 col-lg-4">
+              <input class="form-check-input" type="checkbox" id="business-professional" name="business-professional" value="business-professional" />
+              <label for="business-professional">Business Professional</label>
             </div>
-            <!-- Multi-Select
-            <select multiple class="form-control" id="select-roles" name="roles">
-              {% for role in site.data.contact.roles %}
-                <option value="{{ role.value }}">{{ role.label }}</option>
-              {% endfor %}
-            </select>
-            -->
+            <div class="form-check col-12 col-md-6 col-lg-4">
+              <input class="form-check-input" type="checkbox" id="community-leader" name="community-leader" value="community-leader" />
+              <label for="community-leader">Community Leader</label>
+            </div>
+            <div class="form-check col-12 col-md-6 col-lg-4">
+              <input class="form-check-input" type="checkbox" id="artist" name="artist" value="artist" />
+              <label for="artist">Artist</label>
+            </div>
+            <div class="form-check col-12 col-md-6 col-lg-4">
+              <input class="form-check-input" type="checkbox" id="developer" name="developer" value="developer" />
+              <label for="developer">Developer</label>
+            </div>
+            <div class="form-check col-12 col-md-6 col-lg-4">
+              <input class="form-check-input" type="checkbox" id="collaborator" name="collaborator" value="collaborator" />
+              <label for="collaborator">Collaborator</label>
+            </div>
+            <div class="form-check col-12 col-md-6 col-lg-4">
+              <input class="form-check-input" type="checkbox" id="student" name="student" value="student" />
+              <label for="student">Student</label>
+            </div>
+          </div>
         </div>
 
         <!-- Message Textarea -->
         <div class="form-group">
           <label class="sr-only" for="input-message">Message</label>
-          <textarea required class="form-control" id="input-message" name="message" placeholder="Message" rows="5"></textarea>
+          <textarea required class="form-control" id="input-message" name="message" placeholder="Message" rows="5" minlength="8" maxlength="2048"></textarea>
         </div>
 
         <!-- TODO: reCAPTCHA -->
