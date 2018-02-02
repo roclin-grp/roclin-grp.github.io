@@ -2,6 +2,8 @@
 layout      : default
 title       : Contact
 permalink   : /contact/
+
+# Check the <form> action URL has the correct email address
 ---
 
 
@@ -31,86 +33,128 @@ permalink   : /contact/
 
 
 
-<!-- Send Message Form
+<!-- Contact Form
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<div class="layout-section bg-primary">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-offset-3 col-md-6">
-      
-        <div class="section-header">
-          <h2 class="text-center">Contact us</h2>
-          <p class="text-center">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
+<!--
+  Form Validation:    https://getbootstrap.com/docs/4.0/components/forms/#how-it-works
+  Constraint API:     https://www.w3.org/TR/html5/sec-forms.html#the-constraint-validation-api
+
+  Temporary Form Action Options
+  Using Google Form:  https://github.com/toperkin/staticFormEmails/blob/master/README.md
+  Formspree:          https://formspree.io
+-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-2">
+      <form name="form-contact" method="POST" action="https://formspree.io/mavbarona@gmail.com" target="_blank">
+
+        <!-- Remove this before deploying! -->
+        <div class="form-group d-none">
+          <label class="" for="select-debug">You should not be seeing this!</label>
+          <select class="form-control" id="select-debug" name="environment">
+            <option value="development"></option>
+          </select>
         </div>
-        
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-      
-        <div id="sendmessage" style="display:none;">Your message has been sent. Thank you!</div>
-        
-        <div id="errormessage"></div>
-        
-        <form action="" method="post" role="form" class="contactForm">
-          <div class="form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="What name do you go by?" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-            <div class="validation"></div>
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" name="email" id="email" placeholder="The Email we can reach you at" data-rule="email" data-msg="Please enter a valid email" />
-            <div class="validation"></div>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-            <div class="validation"></div>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-            <div class="validation"></div>
-          </div> 
-          <div class="text-center">
-            <button type="submit" class="btn btn-success btn-lg">Submit</button>
-          </div>
-        </form>
-        
-      </div>
+
+        <!-- Name Input Field -->
+        <div class="form-group">
+          <label class="sr-only" for="input-name">Name</label>
+          <input required class="form-control" id="input-name" type="text" name="name" placeholder="Your name" minlength="4" />
+        </div>
+
+        <!-- Email Input Field -->
+        <div class="form-group">
+          <label class="sr-only" for="input-email">Email</label>
+          <input required class="form-control" id="input-email" type="email" name="email" placeholder="Email address" />
+        </div>
+
+        <!-- Organization Input Field -->
+        <div class="form-group">
+          <label class="sr-only" for="input-org">Organization</label>
+          <input class="form-control" id="input-org" type="text" name="organization" placeholder="Company or organization (optional)" minlength="4" />
+        </div>
+
+        <!-- Subject Select -->
+        <div class="form-group">
+          <label class="sr-only" for="select-subject">Subject</label>
+          <select required class="form-control" id="select-subject" name="subject">
+            <option>- Select a subject -</option>
+            <optgroup label="Contact Us">
+              <option value="inquiry">General inquiry</option>
+              <option value="website">Website feedback</option>
+              <option value="support">Technical support</option>
+            </optgroup>
+            <optgroup label="Work with Us">
+              <option value="creator">Content creator</option>
+              <option value="consume">Content consumer</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <!-- Roles -->
+        <div class="form-group" id="select-describe-group" style="display:none;">
+          <label>Select all that apply:</label>
+            <!-- Individual Checkboxes -->
+            <div class="row mx-2">
+              {% for role in site.data.contact.roles %}
+                <div class="form-check col-12 col-md-6 col-lg-4">
+                  <input class="form-check-input" id="{{ role.value }}" type="checkbox" name="{{ role.value }}" value="{{ role.value }}">
+                  <label for="{{ role.value }}">{{ role.label }}</label>
+                </div>
+              {% endfor %}
+            </div>
+            <!-- Multi-Select
+            <select multiple class="form-control" id="select-roles" name="roles">
+              {% for role in site.data.contact.roles %}
+                <option value="{{ role.value }}">{{ role.label }}</option>
+              {% endfor %}
+            </select>
+            -->
+        </div>
+
+        <!-- Message Textarea -->
+        <div class="form-group">
+          <label class="sr-only" for="input-message">Message</label>
+          <textarea required class="form-control" id="input-message" name="message" placeholder="Message" rows="5"></textarea>
+        </div>
+
+        <!-- TODO: reCAPTCHA -->
+
+        <!-- Submit/Reset Buttons -->
+        <div id="form-buttons" class="text-right">
+          <button class="btn btn-success btn-lg mx-1" type="submit" name="btn-submit" aria-pressed="true">
+            Submit
+          </button>
+          <button class="btn btn-light btn-lg mx-1" type="reset" name="btn-reset" aria-pressed="true">
+            Reset
+          </button>
+        </div>
+
+      </form>
     </div>
   </div>
 </div>
 
-<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
 
 
 
 
 
 
+<!-- Contact Page JavaScript
+––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-
-<!-- Temporary CSS
-–––––––––––––––––––––––––––––––––––––––––––––––––– 
-
-<style>
-
-.form-register {
-  margin: 0 auto;
-}
-
-</style>
-
- ––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-
-
-
-
-
-
-<!-- 
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+<script>
+$(function() {
+  $('#select-subject').on('change', function() {
+    var selected = $(this).val();
+    if (selected == 'creator' || selected == 'consume') {
+      $('#select-describe-group').show();
+    } else {
+      $('#select-describe-group').hide();
+    }
+  });
+});
+</script>
