@@ -40,3 +40,10 @@
 @import "bootstrap/carousel";
 @import "bootstrap/utilities";
 @import "bootstrap/print";
+
+// Custom AnchorJS Link Style
+a.anchorjs-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
