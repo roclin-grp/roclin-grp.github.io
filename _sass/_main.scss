@@ -54,7 +54,8 @@ a.anchorjs-link {
 // Custom Splash Styles
 #page-index {
   .jumbotron {
-    background-color: $black;
+    background: $black;
+    background: linear-gradient(to bottom, $black 0, $gray-900 100%);
     color: $white;
     .container {
       hr {
