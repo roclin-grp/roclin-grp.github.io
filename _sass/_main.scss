@@ -66,6 +66,14 @@ a.anchorjs-link {
   .card {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
     height: 100%;
+    .card-img-top {
+      opacity: 0.8;
+      filter: alpha(opacity=8);
+      &:hover {
+        opacity: 1.00;
+        filter: alpha(opacity=100);
+      }
+    }
     .card-footer {
       border-top: none;
     }
