@@ -47,3 +47,41 @@ a.anchorjs-link {
     text-decoration: none;
   }
 }
+
+// Custom Splash Styles
+#page-index {
+  .jumbotron {
+    background-color: $black;
+    color: $white;
+    .container {
+      .inner {
+        display: block;
+        position: relative;
+        hr {
+          border-top-color: rgba(255, 255, 255, 0.1);
+        }
+        .img-bg {
+          opacity: 0.4;
+          filter: alpha(opacity=40);
+          margin-right: auto;
+          margin-left: auto;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          height: 65%;
+          width: auto;
+          margin-top: 5%;
+        }
+      }
+    }
+  }
+  .card {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    height: 100%;
+    .card-footer {
+      border-top: none;
+    }
+  }
+}
