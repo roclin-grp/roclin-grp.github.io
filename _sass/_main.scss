@@ -57,26 +57,8 @@ a.anchorjs-link {
     background-color: $black;
     color: $white;
     .container {
-      .inner {
-        display: block;
-        position: relative;
-        hr {
-          border-top-color: rgba(255, 255, 255, 0.1);
-        }
-        .img-bg {
-          opacity: 0.4;
-          filter: alpha(opacity=40);
-          margin-right: auto;
-          margin-left: auto;
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          height: 65%;
-          width: auto;
-          margin-top: 5%;
-        }
+      hr {
+        border-top-color: rgba(255, 255, 255, 0.1);
       }
     }
   }
