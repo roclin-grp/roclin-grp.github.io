@@ -1,51 +1,77 @@
-<footer class="site__footer">
+<footer class="footer container py-5">
 
 
 
 
-  <div class="container">
-
-
-    <!-- Footer Navigation
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-    <div class="row">
-
-      <div class="col-sm-12">
-
-        <p class="text-center">
-          <a href="#top" class="btn btn-primary" id="btn-top" role="button">Back to top</a>
-        </p>
-
-      </div>
-
+  <div class="row">
+    <div class="col-12">
+      <ul class="list-inline mb-1">
+        <li class="list-inline-item">
+          <a class="pl-1.25" href="/terms/">Terms &amp; Conditions</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="pl-1.25" href="/privacy/">Privacy Policy</a>
+        </li>
+      </ul>
     </div>
-
-    <!-- Footer Navigation –––––––––––––––––––––––––– -->
-
-
-
-
-    <!-- Copyright Notice
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-    <div class="row">
-
-      <div class="col-sm-12">
-
-        <p class="copyright text-center">
-          &copy; 2017 {{ site.title }} &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></p>
-        </p>
-
-      </div>
-
-    </div>
-
-    <!-- Copyright Notice ––––––––––––––––––––––––––– -->
-
-
-
-
   </div>
+
+
+
+
+  <div class="row">
+    <div class="col-md-8">
+      <small class="d-block text-muted mb-1">Copyright &copy; 2017-2018</small>
+    </div>
+    <div class="col-md-4">
+      <ul class="list-inline float-md-right text-small my-1">
+        <!-- list-inline float-md-right -->
+        <li class="list-inline-item">
+          <a class="text-muted" href="#" alt="Facebook">
+            {% include svg/facebook.svg %}
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="text-muted" href="#" alt="Twitter">
+            {% include svg/twitter.svg %}
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="text-muted" href="#" alt="AngelList">
+            {% include svg/angellist.svg %}
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="text-muted" href="#" alt="GitHub">
+            {% include svg/github.svg %}
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="text-muted" href="#" alt="LinkedIn">
+            {% include svg/linkedin.svg %}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+<!--
+  <div class="row">
+    <div class="col-12">
+      <ul class="list-inline mt-1">
+        <li class="list-inline-item">
+          <a href="#" target="_blank">Foo</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" target="_blank">Bar</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+-->
+
+
 
 </footer>

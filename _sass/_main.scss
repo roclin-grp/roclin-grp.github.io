@@ -1,75 +1,99 @@
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 
-/*  1. Configuration & Helpers
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
-@import 'abstracts/index';
+@import "bootstrap/root";
+@import "bootstrap/reboot";
 
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
 
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
 
+// Custom AnchorJS Link Style
+a.anchorjs-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
 
+// Custom Splash Styles
+#page-index {
+  .jumbotron {
+    background: $black;
+    background: linear-gradient(to bottom, $black 0, $gray-900 100%);
+    color: $white;
+    .container {
+      hr {
+        border-top-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+  .card {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    height: 100%;
+    .card-img-top {
+      opacity: 0.8;
+      filter: alpha(opacity=8);
+      max-width: 256px;
+      &:hover {
+        opacity: 1.00;
+        filter: alpha(opacity=100);
+      }
+    }
+    .card-footer {
+      border-top: none;
+    }
+  }
+}
 
-
-
-
-/*  2. Vendor Stylesheets
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@import 'vendor/index';
-
-
-
-
-
-
-
-
-/*  3. Base Stuff
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@import 'base/index';
-
-
-
-
-
-
-
-
-/*  4. Layout-Related Sections
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@import 'layout/index';
-
-
-
-
-
-
-
-
-/*  5. Components
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@import 'components/index';
-
-
-
-
-
-
-/*  6. Page-Specific Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@import 'pages/index';
-
-
-
-
-
-
-
-
-/*  7. Themes
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@import 'themes/index';
+// Small viewports
+@include media-breakpoint-down('sm') {
+  #page-index {
+    .card {
+      // Prevent card images from becoming huge in small viewports
+      > a {
+        .card-img-top {
+          max-width: 50vw;
+        }
+      }
+      .card-title {
+        text-align: center;
+      }
+    }
+  }
+}
