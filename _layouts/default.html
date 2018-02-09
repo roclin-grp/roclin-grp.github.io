@@ -16,9 +16,7 @@
     {{ content }}
 
     {% if page.ref != "index" %}
-      {% if page.footer == "off" %}
-        {% include layout/footer.html %}
-      {% endif %}
+      {% include layout/footer.html %}
     {% endif %}
 
     {% include foot.html %}
