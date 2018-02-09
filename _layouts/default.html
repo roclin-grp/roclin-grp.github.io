@@ -1,31 +1,27 @@
+---
+---
+
 {% include vars.html %}
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
-
     {% include head.html %}
-
   </head>
-  <body class="{{ page.layout }}">
 
+  <body class="{{ page.layout }}" id="page-{{ page.ref }}">
 
     {% include body.html %}
-
-
     {% include layout/navigation.html %}
 
-
-    {{content}}
-
+    {{ content }}
 
     {% if page.ref != "index" %}
-      {% include layout/footer.html %}
+      {% if page.footer == "off" %}
+        {% include layout/footer.html %}
+      {% endif %}
     {% endif %}
 
-
-
     {% include foot.html %}
-
 
   </body>
 </html>
