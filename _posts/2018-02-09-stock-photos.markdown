@@ -9,7 +9,7 @@ categories:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-<img src="/assets/images/blog/tim-carey-414922.jpg">
+<img src="/images/blog/tim-carey-414922.jpg">
 
 <a href="https://unsplash.com/@baudy?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Tim Carey on Unsplash</a>
 
