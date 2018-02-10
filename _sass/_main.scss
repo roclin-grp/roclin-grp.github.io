@@ -44,6 +44,13 @@
 @import "bootstrap/utilities";
 @import "bootstrap/print";
 
+// Custom Blog Page Styles
+body#page-blog {
+  .card {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  }
+}
+
 // Custom AnchorJS Link Style
 a.anchorjs-link {
   &:hover {

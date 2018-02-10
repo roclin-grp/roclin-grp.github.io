@@ -1,5 +1,41 @@
 ---
 layout      : default
+ref         : blog
 ---
 
+<div class="jumbotron p-2 p-md-4 rounded bg-light">
+  <div class="container">
+    <h1 class="display-4 text-center">Blog</h1>
+  </div>
+</div>
+
 {{ content }}
+
+<div class="container mb-2">
+  <div class="row">
+    {% for post in site.posts limit:6 %}
+      <div class="card-group col-md-6 col-xl-4 mb-2">
+        <div class="card mb-2">
+          {% if post.thumbnail %}
+            <img class="card-img-top" src="/images/blog/{{ post.thumbnail }}">
+          {% else %}
+            <img class="card-img-top" alt="Placeholder Image" style="width: 100%; height: auto;">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.content | strip_html | strip_newlines | strip | truncate: 128, "" }}</p>
+            <a href="{{ post.url }}" class="btn btn-primary">Read More...</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Posted on</small>
+            <small>{{ post.date | date_to_string }}</small>
+            {% if post.author %}
+              <small class="text-muted">by</small>
+              <small>{{ post.author }}</small>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
