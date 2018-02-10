@@ -51,6 +51,12 @@ body#page-blog {
   }
 }
 
+body#page-post {
+  img {
+    max-width: 100%;
+  }
+}
+
 // Custom AnchorJS Link Style
 a.anchorjs-link {
   &:hover {
