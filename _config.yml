@@ -156,12 +156,18 @@ defaults:
     values:
       title: rocLin group
       layout: default
-      ref: default
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      ref: post
+      layout: post
 
 
 liquid:

@@ -1,4 +1,5 @@
 ---
+ref         : about
 layout      : default
 title       : About
 permalink   : /about/

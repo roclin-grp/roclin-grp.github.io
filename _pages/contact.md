@@ -1,4 +1,5 @@
 ---
+ref         : contact
 layout      : default
 title       : Contact
 permalink   : /contact/
