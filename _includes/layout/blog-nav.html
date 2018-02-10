@@ -1,3 +1,26 @@
+<h5>Recent Posts</h5>
+<ul class="nav flex-column">
+  {% for post in site.posts limit:5 %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<hr class="my-4"></hr>
+
+<h5>Related Posts</h5>
+<ul class="nav flex-column">
+  {% for post in site.related_posts limit:5 %}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<hr class="my-4"></hr>
+
+<h5>Archives</h5>
 <ul class="nav flex-column">
   <li class="nav-item">
     <a class="nav-link active" href="#">Active</a>
