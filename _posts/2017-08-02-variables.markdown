@@ -1,11 +1,12 @@
 ---
 layout:     post
-title:      "Variables"
+title:      Variables
 date:       2017-08-02 09:00:00 -0400
+thumbnail:  tim-carey-414909.jpg
 categories:
 ---
 
-
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 ### Global Variables ###
