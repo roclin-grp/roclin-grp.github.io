@@ -56,3 +56,7 @@ __Static Page YAML Front Matter__
 __Page Variables__
 
 [See this page](https://jekyllrb.com/docs/variables/).
+
+<img src="/assets/images/blog/tim-carey-414909.jpg">
+
+<a href="https://unsplash.com/@baudy?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Tim Carey on Unsplash</a>

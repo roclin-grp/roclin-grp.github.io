@@ -3,51 +3,25 @@ layout:     post
 title:      Stock Photos
 date:       2018-02-09 14:00:00 -0400
 thumbnail:  tim-carey-414922.jpg
+author:     Joho
 categories:
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-<img src="/assets/images/blog/pietro-de-grandi-254810.jpg">
-
-<a href="https://unsplash.com/@peter_mc_greats?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Pietro De Grandi on Unsplash</a>
-
-<img src="/assets/images/blog/alex-holyoake-381210.jpg">
-
-<a href="https://unsplash.com/@stairhopper?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Alex Holyoake on Unsplash</a>
-
-
-<img src="/assets/images/blog/tim-carey-414918.jpg">
-
-<a href="https://unsplash.com/@baudy?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Tim Carey on Unsplash</a>
-
-
-<img src="/assets/images/blog/tim-carey-414909.jpg">
-
-<a href="https://unsplash.com/@baudy?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Tim Carey on Unsplash</a>
-
-
 
 <img src="/assets/images/blog/tim-carey-414922.jpg">
 
 <a href="https://unsplash.com/@baudy?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Tim Carey on Unsplash</a>
 
 
-<img src="/assets/images/blog/edu-galvez-298661.jpg">
-
-<a href="https://unsplash.com/@derallye?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Edu Galvez on Unsplash</a>
 
 
-<img src="/assets/images/blog/jannik-selz-45375.jpg">
 
-<a href="https://unsplash.com/@selzcc?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by JANNIK SELZ on Unsplash</a>
-
-
-<img src="/assets/images/blog/andrew-palmer-276542.jpg">
-
-<a href="https://unsplash.com/@ampalmer?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Andrew Palmer on Unsplash</a>
-
-
-<img src="/assets/images/blog/yuvraj-singh-412874.jpg">
-
-<a href="https://unsplash.com/@yxvi?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Yuvraj Singh on Unsplash</a>
+{% highlight html %}
+<a href="https://unsplash.com/@williambout?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by William Bout on Unsplash</span></a>
+<a href="https://unsplash.com/@jeisblack?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Jason Blackeye on Unsplash</span></a>
+<a href="https://unsplash.com/@markusspiske?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Markus Spiske on Unsplash</span></a>
+<a href="https://unsplash.com/@daria_shevtsova?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Daria Shevtsova on Unsplash</span></a>
+<a href="https://unsplash.com/@trapnation?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Andre Benz on Unsplash</span></a>
+<a href="https://unsplash.com/@juniorwebd?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Roberto Júnior on Unsplash</span></a>
+{% endhighlight %}

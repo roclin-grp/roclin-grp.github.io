@@ -33,6 +33,9 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 Be sure to share your post @roclineage #: page.categories 
           " | strip }}
 
+<img src="/assets/images/blog/pietro-de-grandi-254810.jpg">
+
+<a href="https://unsplash.com/@peter_mc_greats?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Pietro De Grandi on Unsplash</a>
 
 
 [twitter]: https://twitter.com/roclineage
