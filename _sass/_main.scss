@@ -49,6 +49,17 @@ body#page-blog,
 body.blog {
   .card {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    .card-body {
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+        h5,
+        p {
+          color: $black;
+        }
+      }
+    }
   }
 }
 

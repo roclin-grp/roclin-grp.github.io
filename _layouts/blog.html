@@ -15,15 +15,19 @@ layout      : default
     {% for post in site.posts limit:6 %}
       <div class="card-group col-md-6 col-xl-4 mb-2">
         <div class="card mb-2">
-          {% if post.thumbnail %}
-            <img class="card-img-top" src="/images/blog/{{ post.thumbnail }}">
-          {% else %}
-            <img class="card-img-top" alt="Placeholder Image" style="width: 100%; height: auto;">
-          {% endif %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {% if post.thumbnail %}
+              <img class="card-img-top" src="/images/blog/{{ post.thumbnail }}">
+            {% else %}
+              <img class="card-img-top" alt="Placeholder Image" style="width: 100%; height: auto;">
+            {% endif %}
+          </a>
           <div class="card-body">
-            <h5 class="card-title">{{ post.title }}</h5>
-            <p class="card-text">{{ post.content | strip_html | strip_newlines | strip | truncate: 128, "" }}</p>
-            <a href="{{ post.url }}" class="btn btn-primary">Read More...</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <h5 class="card-title">{{ post.title }}</h5>
+              <p class="card-text">{{ post.content | strip_html | strip_newlines | strip | truncate: 128, "" }}</p>
+            </a>
+            <a href="{{ post.url }}" class="btn btn-primary mt-2">Read More...</a>
           </div>
           <div class="card-footer">
             <small class="text-muted">Posted on</small>
