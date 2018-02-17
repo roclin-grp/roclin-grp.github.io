@@ -2,21 +2,39 @@
 layout      : default
 ---
 
+<div class="container">
 
-<!-- Text
+  <div class="row">
+    <div class="col-12">
+      <h1 class="display-4">{{ page.title }}</h1>
+      <p class="text-muted">Posted on {{ page.date | date_to_string }}</p>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-9">
+      {{ content }}
+    </div>
+
+    <aside class="blog-sidenav mx-2">
+      {% include layout/blog-nav.html %}
+    </aside>
+
+  </div>
+
+</div>
+
+
+
+
+<!-- AnchorsJS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<div class="content-section">
-  <div class="container">
-    <div class="page-header">
-      <h1>{{ page.title }}</h1>
-    </div>
-    {{ content }}
-  <div class="well">
-Have a perspective to share on this conversation? Share it with us on [twitter][twitter], or catch us on the cloud forum (coming soon) Be sure to share your post @roclineage
-</div>
-  </div>
-</div>
-
-<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
-
+<script>
+  anchors.options = {
+    placement: 'left'
+  };
+  anchors.add();
+  anchors.remove('.blog-sidenav h5')
+</script>

@@ -1,11 +1,12 @@
 ---
 layout:     post
-title:      "Variables"
+title:      Variables
 date:       2017-08-02 09:00:00 -0400
+thumbnail:  tim-carey-414909.jpg
 categories:
 ---
 
-
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 ### Global Variables ###
@@ -55,3 +56,7 @@ __Static Page YAML Front Matter__
 __Page Variables__
 
 [See this page](https://jekyllrb.com/docs/variables/).
+
+<img src="/images/blog/tim-carey-414909.jpg">
+
+<a href="https://unsplash.com/@baudy?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Tim Carey on Unsplash</a>

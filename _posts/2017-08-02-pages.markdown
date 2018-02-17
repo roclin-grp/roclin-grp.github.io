@@ -1,11 +1,14 @@
 ---
 layout:     post
-title:      "Pages"
+title:      Pages
 date:       2017-08-02 00:00:00 -0400
+thumbnail:  tim-carey-414918.jpg
 categories:
 ---
 
 Pages are rather intricate.
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 ### Structure ###
@@ -60,3 +63,8 @@ Pages are rather intricate.
 └── index.md
 ```
 
+
+
+<img src="/images/blog/tim-carey-414918.jpg">
+
+<a href="https://unsplash.com/@baudy?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer">Photo by Tim Carey on Unsplash</a>

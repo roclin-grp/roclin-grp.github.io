@@ -8,12 +8,15 @@
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
+
 @import "bootstrap/root";
 @import "bootstrap/reboot";
+
 @import "bootstrap/type";
 @import "bootstrap/images";
 @import "bootstrap/code";
 @import "bootstrap/grid";
+
 @import "bootstrap/tables";
 @import "bootstrap/forms";
 @import "bootstrap/buttons";
@@ -40,3 +43,87 @@
 @import "bootstrap/carousel";
 @import "bootstrap/utilities";
 @import "bootstrap/print";
+
+// Custom Blog Page Styles
+body#page-blog,
+body.blog {
+  .card {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    .card-body {
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+        h5,
+        p {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+body#page-post,
+body.post {
+  img {
+    max-width: 100%;
+  }
+}
+
+.blog-sidenav {
+  height: 100%;
+}
+
+// Custom AnchorJS Link Style
+a.anchorjs-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Custom Splash Styles
+#page-index {
+  .jumbotron {
+    background: $black;
+    background: linear-gradient(to bottom, $black 0, $gray-900 100%);
+    color: $white;
+    .container {
+      hr {
+        border-top-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+  .card {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    height: 100%;
+    .card-img-top {
+      opacity: 0.8;
+      filter: alpha(opacity=8);
+      max-width: 256px;
+      &:hover {
+        opacity: 1.00;
+        filter: alpha(opacity=100);
+      }
+    }
+    .card-footer {
+      border-top: none;
+    }
+  }
+}
+
+// Small viewports
+@include media-breakpoint-down('sm') {
+  #page-index {
+    .card {
+      // Prevent card images from becoming huge in small viewports
+      > a {
+        .card-img-top {
+          max-width: 50vw;
+        }
+      }
+      .card-title {
+        text-align: center;
+      }
+    }
+  }
+}

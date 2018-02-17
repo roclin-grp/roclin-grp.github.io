@@ -4,26 +4,102 @@ title       : Terms of Service
 permalink   : /terms/
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat mauris mattis efficitur mattis. In hac habitasse platea dictumst. Nunc ullamcorper urna in eros faucibus elementum. Vestibulum sed augue placerat, bibendum quam et, finibus augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque mattis rutrum lorem, quis rhoncus mauris dictum vel. Integer a eros vel orci maximus posuere vitae sed est. Quisque vel massa hendrerit, gravida sem fermentum, pellentesque mi. Etiam nec neque enim. Suspendisse aliquet, ante eget efficitur facilisis, nisi turpis maximus elit, non imperdiet neque sem a lacus.</p>
 
-<p>Donec lobortis erat lectus, ut pretium odio varius ac. Proin nec molestie nisi, sed pharetra turpis. Nam dictum id nulla ac malesuada. Duis convallis, libero sit amet bibendum sodales, est odio dapibus libero, quis aliquet lorem nibh ut libero. Nulla faucibus id nibh quis molestie. Aliquam a dolor bibendum nulla iaculis porta id sit amet libero. Suspendisse potenti. Phasellus tempus, mi et ultrices hendrerit, arcu ante pretium ipsum, ac lacinia dolor urna et risus. Nunc ultricies et nunc sed maximus. Etiam ac ipsum tempor, rhoncus arcu eget, sodales dui. Phasellus lacinia sapien at sapien tristique, eu fermentum velit bibendum. Quisque mattis efficitur est nec suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ultricies tortor vel laoreet consectetur.</p>
 
-<p>Duis vel consectetur libero, vel viverra eros. Sed id ipsum non ex commodo blandit consectetur vitae diam. Curabitur convallis, ipsum quis porttitor feugiat, quam risus rhoncus lectus, vehicula vehicula nibh ante in lorem. Praesent tincidunt nibh id nisi tincidunt, nec commodo orci blandit. Sed placerat leo nec dui feugiat iaculis. Cras vehicula interdum lorem. Proin sed maximus massa. Morbi ac maximus urna. Sed fermentum odio nec ipsum ullamcorper pharetra. Maecenas commodo leo at nibh tempus, nec sollicitudin ante congue. Donec placerat lacinia eros, nec tristique felis venenatis sit amet. Proin enim nibh, laoreet at facilisis id, ultrices in justo. Nam interdum congue augue. Cras neque neque, rhoncus id lectus non, rhoncus rutrum dolor. Vivamus euismod dolor pretium diam fermentum malesuada.</p>
 
-<p>Mauris et tristique quam, vel bibendum est. Morbi tincidunt urna ut blandit posuere. Cras mattis justo quis sapien commodo venenatis. Nulla faucibus gravida metus, volutpat elementum nisl consequat nec. Praesent laoreet lorem id justo hendrerit, id pharetra quam sollicitudin. Cras fermentum viverra tristique. Suspendisse sapien turpis, tincidunt sed magna ac, luctus malesuada sem. Sed id convallis lacus, in mollis ex. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam est ligula, finibus vitae ligula ut, convallis dictum mi. Etiam id nisi dolor. Etiam a justo neque.</p>
+<div class="container mt-3">
 
-<p>Donec nec est orci. Praesent imperdiet dui mi, at dignissim tortor placerat ut. Quisque placerat faucibus magna, id ultrices ante rutrum in. In rutrum pretium augue, eget vestibulum quam finibus a. Donec sed varius ligula. Nulla dignissim ipsum malesuada, accumsan ex id, luctus dui. Curabitur a elit ac eros semper sagittis. Mauris at tincidunt quam, in mattis dui. Sed at nunc ac orci gravida malesuada. Etiam blandit turpis venenatis, sollicitudin erat ut, sollicitudin dolor.</p>
 
-> This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-> 
-> You can find the source code for Minima at GitHub:
-> [jekyll][jekyll-organization] /
-> [minima](https://github.com/jekyll/minima)
-> 
-> You can find the source code for Jekyll at GitHub:
-> [jekyll][jekyll-organization] /
-> [jekyll](https://github.com/jekyll/jekyll)
-> 
-> 
-> [jekyll-organization]: https://github.com/jekyll
-> 
+  <p class="text-muted"><em>Last Updated: Feb 4, 2018 at 17:00 EST (UTC −05:00)</em></p>
+
+
+  <h3>Introduction</h3>
+
+  <p>These Website Standard Terms And Conditions (these “Terms” or these “Website Standard Terms And Conditions”) contained herein on this webpage, shall govern your use of this website, including all pages within this website (collectively referred to herein below as this “Website”). These Terms apply in full force and effect to your use of this Website and by using this Website, you expressly accept all terms and conditions contained herein in full. You must not use this Website, if you have any objection to any of these Website Standard Terms And Conditions</p>
+  <p>This Website is not for use by any minors (defined as those who are not at least 18 years of age), and you must not use this Website if you a minor</p>
+
+
+  <h3>Intellectual Property Rights</h3>
+
+  <p>Other than content you own, which you may have opted to include on this Website, under these Terms, Roclin Group and/or its licensors own all rights to the intellectual property and material contained in this Website, and all such rights are reserved</p>
+  <p>You are granted a limited license only, subject to the restrictions provided in these Terms, for purposes of viewing the material contained on this Website,</p>
+
+
+  <h3>Restrictions</h3>
+
+  <p>You are expressly and emphatically restricted from all of the following:</p>
+
+  <ol>
+    <li>publishing any Website material in any media</li>
+    <li>selling, sublicensing and/or otherwise commercializing any Website material</li>
+    <li>publicly performing and/or showing any Website material</li>
+    <li>using this Website in any way that is, or may be, damaging to this Website</li>
+    <li>using this Website in any way that impacts user access to this Website</li>
+    <li>using this Website contrary to applicable laws and regulations, or in a way that causes, or may cause, harm to the Website, or to any person or business entity</li>
+    <li>engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this Website, or while using this Website</li>
+    <li>using this Website to engage in any advertising or marketing</li>
+  </ol>
+
+  <p>Certain areas of this Website are restricted from access by you and Roclin Group may further restrict access by you to any areas of this Website, at any time, in its sole and absolute discretion.  Any user ID and password you may have for this Website are confidential and you must maintain confidentiality of such information</p>
+
+
+  <h3>Your Content</h3>
+
+  <p>In these Website Standard Terms And Conditions, “Your Content” shall mean any audio, video, text, images or other material you choose to display on this Website. With respect to Your Content, by displaying it, you grant Roclin Group a non-exclusive, worldwide, irrevocable, royalty-free, sublicensable license to use, reproduce, adapt, publish, translate and distribute it in any and all media</p>
+  <p>Your Content must be your own and must not be infringing on any third party’s rights. Roclin Group reserves the right to remove any of Your Content from this Website at any time, and for any reason, without notice</p>
+
+
+  <h3>No warranties</h3>
+
+  <p>This Website is provided “as is,” with all faults, and Roclin Group makes no express or implied representations or warranties, of any kind related to this Website or the materials contained on this Website. Additionally, nothing contained on this Website shall be construed as providing consult or advice to you</p>
+
+
+  <h3>Limitation of liability</h3>
+
+  <p>In no event shall Roclin Group, nor any of its officers, directors and employees, be liable to you for anything arising out of or in any way connected with your use of this Website, whether such liability is under contract, tort or otherwise, and Roclin Group, including its officers, directors and employees shall not be liable for any indirect, consequential or special liability arising out of or in any way related to your use of this Website</p>
+
+
+  <h3>Indemnification</h3>
+
+  <p>You hereby indemnify to the fullest extent Roclin Group from and against any and all liabilities, costs, demands, causes of action, damages and expenses (including reasonable attorney’s fees) arising out of or in any way related to your breach of any of the provisions of these Terms</p>
+
+
+  <h3>Severability</h3>
+
+  <p>If any provision of these Terms is found to be unenforceable or invalid under any applicable law, such unenforceability or invalidity shall not render these Terms unenforceable or invalid as a whole, and such provisions shall be deleted without affecting the remaining provisions herein</p>
+
+
+  <h3>Variation of Terms</h3>
+
+  <p>Roclin Group is permitted to revise these Terms at any time as it sees fit, and by using this Website you are expected to review such Terms on a regular basis to ensure you understand all terms and conditions governing use of this Website</p>
+
+
+  <h3>Assignment</h3>
+
+  <p>Roclin Group shall be permitted to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification or consent required. However, .you shall not be permitted to assign, transfer, or subcontract any of your rights and/or obligations under these Terms</p>
+
+
+  <h3>Entire Agreement</h3>
+
+  <p>These Terms, including any legal notices and disclaimers contained on this Website, constitute the entire agreement between Roclin Group and you in relation to your use of this Website, and supersede all prior agreements and understandings with respect to the same</p>
+
+
+  <h3>Governing Law & Jurisdiction</h3>
+
+  <p>These Terms will be governed by and construed in accordance with the laws of the State of New Jersey, and you submit to the non-exclusive jurisdiction of the state and federal courts located in New Jersey for the resolution of any disputes</p>
+
+
+</div>
+
+
+
+
+<!-- AnchorsJS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<script>
+  anchors.options = {
+    placement: 'left'
+  };
+  anchors.add();
+</script>

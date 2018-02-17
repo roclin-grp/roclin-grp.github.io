@@ -1,82 +1,30 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-
+<nav class="navbar navbar-light bg-light navbar-fixed-top navbar-expand-lg" role="navigation">
   <div class="container">
+    <a class="navbar-brand" href="/">
+      <span><img src="/images/favicon/favicon-32x32.png"> {{ site.title }}</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-navbar" aria-controls="site-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-
-
-
-
-
-
-
-    <!-- Navbar Header
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-    <div class="navbar-header">
-
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-      </button>
-
-      <a class="navbar-brand" href="/">
-        <span><img src="/images/favicon/favicon-32x32.png"> {{ site.title }}</span>
-      </a>
-
-    </div>
-
-    <!-- Navbar Header ––––––––––––––––––––––––––––––– -->
-
-
-
-
-
-
-
-
-    <!-- Navbar Collapse
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-    <div id="navbar" class="navbar-collapse collapse">
-
-
-
-      <ul class="nav navbar-nav navbar-right nav--pages">
-        {% for item in site.data.nav.social %}
-          {% include components/nav-item.html
-              icon = item.icon
-              text = item.title
-              path = item.path
-              current = page.url
-          %}
-        {% endfor %}
+    <div class="collapse navbar-collapse" id="site-navbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/about/">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact/">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/">Blog</a>
+        </li>
       </ul>
-
-
-
-      <!-- vertical divider -->
-
-      <ul class="nav navbar-nav navbar-right nav--pages">
-        {% for page in site.data.nav.pages %}
-          {% include components/nav-item.html
-              text = page.title
-              path = page.path
-              current = page.url
-          %}
-        {% endfor %}
-      </ul>
-
     </div>
-
-    <!-- Navbar Collapse ––––––––––––––––––––––––––––– -->
-
-
-
-
-
-
-
-
   </div>
-
 </nav>
