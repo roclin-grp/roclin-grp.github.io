@@ -17,8 +17,8 @@ permalink   : /about/
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Rise of Collaboration</h1>
-    <p class="lead">For the shared lineage of the group.</p>
+    <h1 class="display-4">RoC &#8226; Lin Group:</h1>
+    <p class="lead">Rise of Collaboration for the shared Lineage of the group.</p>
     <hr class="my-4">
     <p>Join our network of collaborators!</p>
     <p class="lead">
@@ -45,9 +45,11 @@ permalink   : /about/
 
     <div class="col-sm-12">
 
-      <p class="lead">CODE: Shouldn't your data work for you?</p>
-      <p>Here used as an acronym, Centrally Organized Decentralized Entity, refers to a business model and programming design principle to bring balance and control between individuals and groups. The kind of trust in data required to build an IoT revolution.</p>
-      <p>What does this mean in real terms? CODE defines a flexible social contract for an adaptive social contract, our products are inclusively individualized.</p>
+      <p class="lead">The roclin group is a <strong>CODE</strong> partnership: a <strong>C</strong>entrally <strong>O</strong>rganized group of <strong>D</strong>ecentralized <strong>E</strong>ntities.</p>
+      <p>Life is a balancing act, our business model and programming design principles to bring access and control between individuals and groups.</p> 
+      <p>This approach facilitates trust and respect to build a relationship to data for an IoT revolution with access to a basic income for users, communities and participating businesses.</p>
+      <p>What does this mean in real terms? CODE defines a flexible social contract for an adaptive social contract between individuals and collaborating teams.</p>
+      <p>Our developers aspire to bring community-based solutions to scale beyond the hype of decentralized technology, cut down noisy fake news with <strong>context</strong>, democratize search and shape human-oriented advertising instead of clicks.</p>
       <p>This structure will enable our platform to implement the New Deal on Data as described by Alex Pentland of the Human Dynamics MIT Media Lab.</p>
 
       <div class="well">
@@ -59,14 +61,14 @@ permalink   : /about/
         </ul>
       </div>
 
-      <p>We believe in not only privacy, but respect. This means keeping the technical simple, modular design, and connecting people through ideas; an end to information silos.</p>
+      <p>We believe in not only privacy, but respect. This means keeping the technical simple, with modular design to connecting people through ideas and an end to information silos.</p>
       <p>In business terms this means there's lower overhead, intermediary oversight, and room for participation by community leaders to partner with us to bring CODE computing to your businesses, communities and organizations as early adopters.</p>
 
       <div class="well">
         <p>We are looking for the outcasts, the autodidact, iconoclast who wants to be a part of change to build a better world. Our mission is to apply technology with human oriented design to connect people, and that takes diverse perspectives to achieve.</p>
-        <p>At this point we are most enthused to meet any developers, interns, crypto-experts, data scientists, designers, web developers and blockchain engineers with skill sets that cross in between any of the above.</p>
+        <p>We are enthused to meet any developers, interns, crypto-experts, data scientists, designers, web developers and blockchain engineers with skill sets that cross between.</p>
         <p>Partners who would like to get involved in creating social action, creating content for multiple perspectives through whatever medium, curating content, comparing philosophies or connecting business. We’d like to keep in touch.</p>
-        <p>Anyone who may like to spread the word about our mission, ask questions and become an early adopter of our products, please drop your name in the metaphorical hat!</p>
+        <p>Reach out, spread the word, ask questions and connect your network to ours.</p>
       </div>
 
     </div>
@@ -125,7 +127,7 @@ permalink   : /about/
           <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Joho" alt="Joho">
           <div class="card-body">
             <h5 class="card-title">Lead Developer, John Ho</h5>
-            <p class="card-text">A full stack engineer with experience across the business and code aspect for multiple start-ups. A swiss army knife of developers managing implementation of the technical plan.</p>
+            <p class="card-text">Full stack engineer with experience across the business and code aspect for multiple start-ups. A versatile web developer managing implementation of the technical plan.</p>
           </div>
         </div>
       </div>

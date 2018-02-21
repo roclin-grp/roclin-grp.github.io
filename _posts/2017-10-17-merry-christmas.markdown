@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Merry Christmas!
+title:      Rise of Collaboration, Rise of Coves
 date:       2017-10-17 00:00:00 -0400
 thumbnail:  andrew-palmer-276542.jpg
 categories:

@@ -1,10 +1,14 @@
 ---
 layout:     post
-title:      Welcome to Jekyll!
+title:      Preview Launch
 date:       2017-08-01 00:04:43 -0400
 thumbnail:  pietro-de-grandi-254810.jpg
 categories: jekyll update
 ---
+
+We are developing a nonlinear media platform to democratize the filter, improve search quality and health. Our method is aimed to solve the problem of third party censorship, bias and fake news; finding information when you're not an expert in what good search results look like, and to manipulate algorithm promoting results. This innovation implemented over a decentralized network will serve to make indexing and machine learning not only feasible but beneficial to the rights and privacy of data traveling through a more respectable, secure and sensible Internet of Things.
+
+Info about upcoming release, call to action, opportunity | benefit description, preview
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

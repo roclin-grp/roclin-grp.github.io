@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Lorem Ipsum
+title:      CODE Mission
 date:       2017-11-11 23:11:11 -0400
 thumbnail:  edu-galvez-298661.jpg
 categories:

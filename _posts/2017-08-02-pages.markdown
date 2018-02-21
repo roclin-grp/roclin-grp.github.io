@@ -1,10 +1,12 @@
 ---
 layout:     post
-title:      Pages
+title:      New Deal on Data - Basic Income
 date:       2017-08-02 00:00:00 -0400
 thumbnail:  tim-carey-414918.jpg
 categories:
 ---
+
+Alex Pentland, Access vs Ownership, Data Monetization, Currency, Tech Unemployment, Protectionist Economic Policy, Privacy vs Respect, Share in cost and benefit, Attention Economy, Collaboration Acceleration, Accountability
 
 Pages are rather intricate.
 

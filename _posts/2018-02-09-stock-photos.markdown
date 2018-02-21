@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Stock Photos
+title:      White Paper
 date:       2018-02-09 14:00:00 -0400
 thumbnail:  tim-carey-414922.jpg
 categories:
