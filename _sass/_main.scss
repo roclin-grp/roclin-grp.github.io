@@ -44,6 +44,36 @@
 @import "bootstrap/utilities";
 @import "bootstrap/print";
 
+// Custom Blog Page Styles
+body#page-blog,
+body.blog {
+  .card {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    .card-body {
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+        h5,
+        p {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+body#page-post,
+body.post {
+  img {
+    max-width: 100%;
+  }
+}
+
+.blog-sidenav {
+  height: 100%;
+}
+
 // Custom AnchorJS Link Style
 a.anchorjs-link {
   &:hover {

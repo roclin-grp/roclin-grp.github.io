@@ -1,4 +1,5 @@
 ---
+ref         : contact
 layout      : default
 title       : Contact
 permalink   : /contact/
@@ -20,7 +21,7 @@ permalink   : /contact/
   <div class="container">
     <h1 class="display-4">Contact</h1>
     <p class="lead">We are looking for the outcasts, the autodidact, iconoclast who wants to be a part of change to build a better world. Our mission is to apply technology with human oriented design to connect people, and that takes diverse perspectives to achieve.</p>
-    <p class="lead">The world we live in has been built upon the shoulders of giants; if you are interested in contributing or partnering to become one of those giants, drop your info in our hat here.</p>
+    <p class="lead">The world we live in has been built upon the shoulders of giants; if you are interested in contributing or partnering to become one of those giants, send your info in below.</p>
   </div>
 </div>
 

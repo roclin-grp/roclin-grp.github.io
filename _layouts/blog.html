@@ -2,43 +2,43 @@
 layout      : default
 ---
 
-
-
-
-
-
-
-
-<!-- Text
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<div class="content-section">
+<div class="jumbotron p-2 p-md-4 rounded bg-light">
   <div class="container">
-
-
-    <div class="page-header">
-      <h1>{{ page.title }}</h1>
-    </div>
-
-
-    {{ content }}
-
-
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h2>
-        </li>
-      {% endfor %}
-    </ul>
-
-
+    <h1 class="display-4 text-center">Blog</h1>
   </div>
 </div>
 
-<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+{{ content }}
+
+<div class="container mb-2">
+  <div class="row">
+    {% for post in site.posts limit:9 %}
+      <div class="card-group col-md-6 col-xl-4 mb-2">
+        <div class="card mb-2">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {% if post.thumbnail %}
+              <img class="card-img-top" src="/images/blog/{{ post.thumbnail }}">
+            {% else %}
+              <img class="card-img-top" alt="Placeholder Image" style="width: 100%; height: auto;">
+            {% endif %}
+          </a>
+          <div class="card-body">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <h5 class="card-title">{{ post.title }}</h5>
+              <p class="card-text">{{ post.content | strip_html | strip_newlines | strip | truncate: 128, "" }}</p>
+            </a>
+            <a href="{{ post.url }}" class="btn btn-primary mt-2">Read More...</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Posted on</small>
+            <small>{{ post.date | date_to_string }}</small>
+            {% if post.author %}
+              <small class="text-muted">by</small>
+              <small>{{ post.author }}</small>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

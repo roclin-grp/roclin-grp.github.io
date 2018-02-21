@@ -8,7 +8,7 @@
     {% include head.html %}
   </head>
 
-  <body class="{{ page.layout }}" id="page-{{ page.ref }}">
+  <body class="{{ page.layout }}"{% if page.ref %} id="page-{{ page.ref }}"{% endif %}>
 
     {% include body.html %}
     {% include layout/navigation.html %}
